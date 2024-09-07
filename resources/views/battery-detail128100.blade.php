@@ -52,55 +52,64 @@
             border-color: rgb(79 70 229 );
         }
 
-        .product-group {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 1rem;
-            }
-
-            .product-group img {
+        #large-image-container img {
             width: 100%;
             height: auto;
-            object-fit: cover;
-            border-radius: 8px;
-            }
+        }
 
-            .product-group .image-item {
-            text-align: center;
-            }
+            
+        #small-images-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px; /* Jarak antara gambar kecil */
+            align-items: center;
+        }
 
-            .product-group .image-item p {
-            margin-top: 0.5rem;
-            font-size: 0.875rem;
-            color: #333;
-            }
-            .form-select {
-            padding: 0.5rem;
-            border-radius: 0.375rem;
-            border: 1px solid #d1d5db;
-            font-size: 1rem;
-            color: #4b5563;
-            width: 250px;
-            }
-            .image-item {
-                overflow: hidden; /* Ensures that the zoom effect stays within the image boundaries */
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                padding-bottom: 10px;
-            }
+        #small-images-container .image-item img {
+            width: 20%; /* Sesuaikan lebar gambar kecil */
+            height: auto;
+        }
 
-            .image-item img {
-                transition: transform 0.3s ease-in-out; /* Smooth transition for the zoom effect */
-                 /* Set a default width to control the size */
-                height: auto;
-                border-radius: 5px; /* Optional: Adds slight rounding to corners */
-            }
 
-            .image-item img:hover {
-                transform: scale(1.1); /* Scales the image by 10% when hovered */
-            }
+        .carousel-container {
+    position: relative;
+    height: 450px; /* Adjust based on your needs */
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease-in-out;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+ 
+/* Style for small images */
+#small-images-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between small images */
+    align-items: center;
+}
+
+#small-images-container .image-item img {
+    width: 100px; /* Width for small images */
+    height: auto;
+    cursor: pointer;
+}
+strong{
+    font-weight: 900 !important;
+    color:black
+}
     </style>  
+    
 <body>
     <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
@@ -207,22 +216,91 @@
     </section>
 
     <section class="py-24">
-  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" style="padding-top: 100px;">
-    <div class="flex items-center justify-between mb-6 relative">
-      <h1 id="filterTitle" style="font-size: 40px;font-weight: 700;" class="text-3xl font-bold   absolute left-1/2 transform -translate-x-1/2">All Batteries</h1>
-      <div class="flex-grow"></div>
-      <!-- Empty flex box to center the title -->
-      <select id="filterSelect" class="form-select ml-auto">
-        <option value="all">All</option>
-        <option value="12.8V 100Ah">12.8V 100Ah</option>
-        <option value="12.8V 120Ah">12.8V 120Ah</option>
-        <option value="12.8V 200Ah">12.8V 200Ah</option>
-        <option value="12.8V 50Ah">12.8V 50Ah</option>
-      </select>
-    </div>
-    <div class="grid product-group gap-4"></div>
-  </div>
-</section>
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" style="padding-top: 120px;">
+            <div class="flex flex-col lg:flex-row gap-8">
+                <!-- Small Images Container -->
+                <div class="carousel-container flex flex-col gap-4">
+                    <div id="small-images-container" class="carousel">
+                        <!-- Small images will be inserted here -->
+                    </div>
+                </div>
+
+                <!-- Large Image Container -->
+                <div class="flex flex-col items-center">
+                    <div id="large-image-container" class="w-full max-w-md">
+                        <!-- Large image will be inserted here -->
+                    </div>
+                </div>
+
+                <!-- Description -->
+               
+                <div>
+                <h1 style = "font-size : 32px;font-weight: 700" >A&amp;S 12.8V 100Ah LiFePO4 Batteries</h1>
+                <br/>
+                    <table>
+                        <tbody>
+                            
+                            <tr class="firstRow">
+                                <td valign="top" style="word-break: break-all;"><strong>Model #&nbsp;:&nbsp;</strong>&nbsp;AS12-100</td>
+                                <td valign="top" style="word-break: break-all;"><strong>A&amp;S P/N&nbsp;:&nbsp;</strong>AS-DC1280-0100-410</td>
+                            </tr>
+                            <tr>
+                                <td valign="top" style="word-break: break-all;">
+                                <strong>Size&nbsp;:&nbsp;&nbsp;</strong>		 (:mm / inch)330*173*220mm
+                                <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;12.99*6.81*8.66in</p>
+                                </td>
+                                <td valign="top" style="word-break: break-all;"><strong>Weight&nbsp;:&nbsp;&nbsp;</strong> 9.6KG/21.16lb</td>
+                            </tr>
+                            <tr>
+                                <td valign="top" style="word-break: break-all;"><strong>Gross weight :&nbsp;&nbsp;</strong>12.5KG/27.55lb</td>
+                                <td valign="top" style="word-break: break-all;"><strong>Continuous Discharge Current&nbsp;:</strong>&nbsp;&nbsp;100A</td>
+                            </tr>
+                            <tr>
+                                <td style="word-break: break-all;"><strong>Peak Discharge Current&nbsp;:&nbsp;</strong>&nbsp;150A(3S)</td>
+                                <td>Cycle Life (100%, 80%, 50% DOD)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p><strong>Prod lead time : </strong> 3 - 4 weeks (urgent case 2 weeks)<br></p>
+                    <p><strong>Sea shipment lead time:</strong></p>
+                    <table>
+                        <tbody>
+                            <tr class="firstRow">
+                                <td valign="top">North America :</td>
+                                <td valign="top">3 - 4 weeks</td>
+                                <td valign="top">by Sea</td>
+                            </tr>
+                            <tr>
+                                <td valign="top">EU:</td>
+                                <td valign="top">3- 4 weeks</td>
+                                <td valign="top">by Sea</td>
+                            </tr>
+                            <tr>
+                                <td valign="top">Southern Eastern Asia :</td>
+                                <td valign="top">7- 10 days</td>
+                                <td valign="top">by Sea</td>
+                            </tr>
+                            <tr>
+                                <td valign="top">India/Pakistan:</td>
+                                <td valign="top">12-15 days</td>
+                                <td valign="top">by Sea</td>
+                            </tr>
+                            <tr>
+                                <td valign="top">South America	:</td>
+                                <td valign="top">4-5 weeks</td>
+                                <td valign="top">by Sea</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p><strong>Cert:</strong>&nbsp; &nbsp;<br></p>
+                    <p>&nbsp; &nbsp; &nbsp; (1)Cell		: 	UL, CE, ROHS, REACH, EMC, BIS, UN38.3, IEC 63133, IEC 61960</p>
+                    <p>&nbsp; &nbsp; &nbsp; (2)Pack		:	UL, CE, ROHS, REACH, EMC, BIS, UN 38.3</p>
+                    <p><br></p>
+                    </div>
+            </div>
+        </div>
+    </section>
+
  
  
     <footer class="footer bg-gray-500 text-base-content p-10">
@@ -287,7 +365,7 @@
 
     <!--====== Main js ======-->
     <script src="{{ asset('frontend/assets/js/wow.min.js') }}"></script>
-    <script src="{{ asset('frontend/assets/js/product.js') }}"></script>
+    <script src="{{ asset('frontend/assets/js/product-detail128100.js') }}"></script>
    
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://cdn.jsdelivr.net/npm/pagedone@1.2.1/src/js/pagedone.js"></script>
