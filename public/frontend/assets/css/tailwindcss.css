@@ -1353,6 +1353,7 @@ a, button {
   transform: translateX(-50%); 
   background-color: rgb(156, 194, 252); 
   height: 150px;
+  border-radius: 10px
 }
 
 

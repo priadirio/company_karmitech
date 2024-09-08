@@ -107,46 +107,7 @@
                                             <a href="/solar">Solar Panel</a></br>
                                            
                                         </div>
-                                        <!-- <div class="testProduct" id="test-product">
-                                          <div class="imgProduct" style="display: flex; display: flex;
-                                          flex-direction: row;
-                                          justify-content: space-around;">
-                                          <a>
-                                        <img src="{{ asset('frontend/assets/images/batlogo.png') }}" alt="Logo" width="75px" height="75px">
-                                        <br>
-                                        12.8V LiFePO4
-                                        </a>
-                                          <a>
-                                        <img src="{{ asset('frontend/assets/images/batlogo.png') }}" alt="Logo" width="75px" height="75px" >
-                                        <br>
-                                        25.6V LiFePO4
-                                        </a>     
-                                          <a>
-                                        <img src="{{ asset('frontend/assets/images/batlogo.png') }}" alt="Logo" width="75px" height="75px" >
-                                        <br>
-                                        48V LiFePO4
-                                        </a>     
-                                          <a>
-                                        <img src="{{ asset('frontend/assets/images/batlogo.png') }}" alt="Logo" width="75px" height="75px" >
-                                        <br>
-                                        51.2V LiFePO4
-                                        </a>     
-                                          <a>
-                                        <img src="{{ asset('frontend/assets/images/ess.png') }}" alt="Logo" width="75px" height="75px" >
-                                        <br>
-                                        ESS
-                                        </a>     
-                                          <a>
-                                        <img src="{{ asset('frontend/assets/images/essacc.png') }}" alt="Logo" width="75px" height="75px" >
-                                        <br>
-                                        ESS Accessories
-                                        </a>     
-                                          <a>
-                                        <img src="{{ asset('frontend/assets/images/custom.png') }}" alt="Logo" width="75px" height="75px" >
-                                        <br>
-                                        Custom Batteries
-                                        </a>     
-                                                </div>  -->
+                                         
                                     </div>
                                 </li>
 
@@ -166,46 +127,7 @@
                                         
                                            
                                         </div>
-                                        <!-- <div class="testProduct" id="test-product">
-                                          <div class="imgProduct" style="display: flex; display: flex;
-                                          flex-direction: row;
-                                          justify-content: space-around;">
-                                          <a>
-                                        <img src="{{ asset('frontend/assets/images/logo_solar.png') }}" alt="Logo" width="75px" height="75px">
-                                        <br>
-                                        12.8V LiFePO4
-                                        </a>
-                                          <a>
-                                        <img src="{{ asset('frontend/assets/images/logo_solar.png') }}" alt="Logo" width="75px" height="75px" >
-                                        <br>
-                                        25.6V LiFePO4
-                                        </a>     
-                                          <a>
-                                        <img src="{{ asset('frontend/assets/images/logo_solar.png') }}" alt="Logo" width="75px" height="75px" >
-                                        <br>
-                                        48V LiFePO4
-                                        </a>     
-                                          <a>
-                                        <img src="{{ asset('frontend/assets/images/logo_solar.png') }}" alt="Logo" width="75px" height="75px" >
-                                        <br>
-                                        51.2V LiFePO4
-                                        </a>     
-                                          <a>
-                                        <img src="{{ asset('frontend/assets/images/logo_solar.png') }}" alt="Logo" width="75px" height="75px" >
-                                        <br>
-                                        ESS
-                                        </a>     
-                                          <a>
-                                        <img src="{{ asset('frontend/assets/images/logo_solar.png') }}" alt="Logo" width="75px" height="75px" >
-                                        <br>
-                                        ESS Accessories
-                                        </a>     
-                                          <a>
-                                        <img src="{{ asset('frontend/assets/images/logo_solar.png') }}" alt="Logo" width="75px" height="75px" >
-                                        <br>
-                                        Custom Batteries
-                                        </a>     
-                                                </div>  -->
+                                        
                                     </div>
                                 </li>
                                 
@@ -222,47 +144,8 @@
                                         </div>
                                         <div id="test-product" class="testProduct" >
                                           <!-- Dynamic content will be injected here -->
-                                      </div>
-                                        <!-- <div class="testProduct" id="test-product">
-                                          <div class="imgProduct" style="display: flex; display: flex;
-                                          flex-direction: row;
-                                          justify-content: space-around;">
-                                          <a>
-                                        <img src="{{ asset('frontend/assets/images/logo_smartpole.png') }}" alt="Logo" width="75px" height="75px">
-                                        <br>
-                                        12.8V LiFePO4
-                                        </a>
-                                          <a>
-                                        <img src="{{ asset('frontend/assets/images/logo_smartpole.png') }}" alt="Logo" width="75px" height="75px" >
-                                        <br>
-                                        25.6V LiFePO4
-                                        </a>     
-                                          <a>
-                                        <img src="{{ asset('frontend/assets/images/logo_smartpole.png') }}" alt="Logo" width="75px" height="75px" >
-                                        <br>
-                                        48V LiFePO4
-                                        </a>     
-                                          <a>
-                                        <img src="{{ asset('frontend/assets/images/logo_smartpole.png') }}" alt="Logo" width="75px" height="75px" >
-                                        <br>
-                                        51.2V LiFePO4
-                                        </a>     
-                                          <a>
-                                        <img src="{{ asset('frontend/assets/images/logo_smartpole.png') }}" alt="Logo" width="75px" height="75px" >
-                                        <br>
-                                        ESS
-                                        </a>     
-                                          <a>
-                                        <img src="{{ asset('frontend/assets/images/logo_smartpole.png') }}" alt="Logo" width="75px" height="75px" >
-                                        <br>
-                                        ESS Accessories
-                                        </a>     
-                                          <a>
-                                        <img src="{{ asset('frontend/assets/images/logo_smartpole.png') }}" alt="Logo" width="75px" height="75px" >
-                                        <br>
-                                        Custom Batteries
-                                        </a>     
-                                                </div>  -->
+                                        </div>
+                                         
                                     </div>
                                 </li>
 
@@ -277,46 +160,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- <div class="testProduct" id="test-product">
-                                          <div class="imgProduct" style="display: flex; display: flex;
-                                          flex-direction: row;
-                                          justify-content: space-around;">
-                                          <a href="">
-                                          <center><img src="{{ asset('frontend/assets/images/rs2.png') }}" alt="Logo" width="75px" height="75px"></center>
-                                        <br>
-                                        Residential & Consumer
-                                        </center></a>
-                                        <a href="">
-                                        <img src="{{ asset('frontend/assets/images/rs4.png') }}" alt="Logo" width="75px" height="75px" >
-                                        <br>
-                                        Commercial
-                                          </a>    
-                                          <a href="">
-                                        <img src="{{ asset('frontend/assets/images/rs5.png') }}" alt="Logo" width="75px" height="75px" >
-                                        <br>
-                                        Transit Battery
-                                          </a>    
-                                          <a href="">
-                                          <center><img src="{{ asset('frontend/assets/images/rs6.png') }}" alt="Logo" width="100px" height="100px" >
-                                       
-                                        Minigrid, Rural electrification
-                                        </center></a>    
-                                          <a href="">
-                                        <img src="{{ asset('frontend/assets/images/rs7.png') }}" alt="Logo" width="75px" height="75px" >
-                                        <br>
-                                        Starter Battery
-                                          </a>    
-                                          <a href="">
-                                        <img src="{{ asset('frontend/assets/images/rs8.png') }}" alt="Logo" width="75px" height="75px" >
-                                        <br>
-                                        3C Products
-                                          </a>    
-                                          <a href="">
-                                        <img src="{{ asset('frontend/assets/images/rs9.png') }}" alt="Logo" width="75px" height="75px" >
-                                        <br>
-                                        Custom Batteries
-                                          </a>    
-                                                </div>  -->
+                                         
                                     </div>
                                 </li>
                                     <li class="nav-item ml-5 lg:ml-11">
