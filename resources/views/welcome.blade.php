@@ -116,37 +116,37 @@
                                           flex-direction: row;
                                           justify-content: space-around;">
                                           <a>
-                                        <img src="{{ asset('frontend/assets/images/logo_batt.png') }}" alt="Logo" width="75px" height="75px">
+                                        <img src="{{ asset('frontend/assets/images/batlogo.png') }}" alt="Logo" width="75px" height="75px">
                                         <br>
                                         12.8V LiFePO4
                                         </a>
                                           <a>
-                                        <img src="{{ asset('frontend/assets/images/logo_batt.png') }}" alt="Logo" width="75px" height="75px" >
+                                        <img src="{{ asset('frontend/assets/images/batlogo.png') }}" alt="Logo" width="75px" height="75px" >
                                         <br>
                                         25.6V LiFePO4
                                         </a>     
                                           <a>
-                                        <img src="{{ asset('frontend/assets/images/logo_batt.png') }}" alt="Logo" width="75px" height="75px" >
+                                        <img src="{{ asset('frontend/assets/images/batlogo.png') }}" alt="Logo" width="75px" height="75px" >
                                         <br>
                                         48V LiFePO4
                                         </a>     
                                           <a>
-                                        <img src="{{ asset('frontend/assets/images/logo_batt.png') }}" alt="Logo" width="75px" height="75px" >
+                                        <img src="{{ asset('frontend/assets/images/batlogo.png') }}" alt="Logo" width="75px" height="75px" >
                                         <br>
                                         51.2V LiFePO4
                                         </a>     
                                           <a>
-                                        <img src="{{ asset('frontend/assets/images/logo_batt.png') }}" alt="Logo" width="75px" height="75px" >
+                                        <img src="{{ asset('frontend/assets/images/ess.png') }}" alt="Logo" width="75px" height="75px" >
                                         <br>
                                         ESS
                                         </a>     
                                           <a>
-                                        <img src="{{ asset('frontend/assets/images/logo_batt.png') }}" alt="Logo" width="75px" height="75px" >
+                                        <img src="{{ asset('frontend/assets/images/essacc.png') }}" alt="Logo" width="75px" height="75px" >
                                         <br>
                                         ESS Accessories
                                         </a>     
                                           <a>
-                                        <img src="{{ asset('frontend/assets/images/logo_batt.png') }}" alt="Logo" width="75px" height="75px" >
+                                        <img src="{{ asset('frontend/assets/images/custom.png') }}" alt="Logo" width="75px" height="75px" >
                                         <br>
                                         Custom Batteries
                                         </a>     
@@ -283,40 +283,40 @@
                                           flex-direction: row;
                                           justify-content: space-around;">
                                           <a href="">
-                                        <img src="{{ asset('frontend/assets/images/rumah_logo.png') }}" alt="Logo" width="75px" height="75px">
+                                          <center><img src="{{ asset('frontend/assets/images/rs2.png') }}" alt="Logo" width="75px" height="75px"></center>
                                         <br>
                                         Residential & Consumer
-                                        </a>
-                                          <p>
-                                        <img src="{{ asset('frontend/assets/images/gedung_logo.png') }}" alt="Logo" width="75px" height="75px" >
+                                        </center></a>
+                                        <a href="">
+                                        <img src="{{ asset('frontend/assets/images/rs4.png') }}" alt="Logo" width="75px" height="75px" >
                                         <br>
                                         Commercial
-                                          </p>     
-                                          <p>
-                                        <img src="{{ asset('frontend/assets/images/logo_smartpole.png') }}" alt="Logo" width="75px" height="75px" >
+                                          </a>    
+                                          <a href="">
+                                        <img src="{{ asset('frontend/assets/images/rs5.png') }}" alt="Logo" width="75px" height="75px" >
                                         <br>
                                         Transit Battery
-                                          </p>     
-                                          <p>
-                                        <img src="{{ asset('frontend/assets/images/logo_smartpole.png') }}" alt="Logo" width="75px" height="75px" >
-                                        <br>
+                                          </a>    
+                                          <a href="">
+                                          <center><img src="{{ asset('frontend/assets/images/rs6.png') }}" alt="Logo" width="100px" height="100px" >
+                                       
                                         Minigrid, Rural electrification
-                                          </p>     
-                                          <p>
-                                        <img src="{{ asset('frontend/assets/images/logo_smartpole.png') }}" alt="Logo" width="75px" height="75px" >
+                                        </center></a>    
+                                          <a href="">
+                                        <img src="{{ asset('frontend/assets/images/rs7.png') }}" alt="Logo" width="75px" height="75px" >
                                         <br>
                                         Starter Battery
-                                          </p>     
-                                          <p>
-                                        <img src="{{ asset('frontend/assets/images/logo_smartpole.png') }}" alt="Logo" width="75px" height="75px" >
+                                          </a>    
+                                          <a href="">
+                                        <img src="{{ asset('frontend/assets/images/rs8.png') }}" alt="Logo" width="75px" height="75px" >
                                         <br>
                                         3C Products
-                                          </p>     
-                                          <p>
-                                        <img src="{{ asset('frontend/assets/images/logo_smartpole.png') }}" alt="Logo" width="75px" height="75px" >
+                                          </a>    
+                                          <a href="">
+                                        <img src="{{ asset('frontend/assets/images/rs9.png') }}" alt="Logo" width="75px" height="75px" >
                                         <br>
                                         Custom Batteries
-                                          </p>     
+                                          </a>    
                                                 </div> 
                                     </div>
                                 </li>
