@@ -59,5 +59,5 @@ Route::get('/battery-detailLFP', [FrontendController::class, 'batteryDetailLFP']
 Route::get('/battery-detail512400', [FrontendController::class, 'batteryDetail512400'])->name('battery-detail512400');
 Route::get('/solar', [FrontendController::class, 'solar'])->name('solar');
 Route::get('/product/{product:slug}', [ProductController::class, 'show']);
-Route::get('/gallery', [FrontendController::class, 'gallery'])->name('gallery');
+Route::get('/gallery1', [FrontendController::class, 'gallery'])->name('gallery');
 Route::get('/detail', [FrontendController::class, 'detailCustom'])->name('detail');

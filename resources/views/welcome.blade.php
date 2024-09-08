@@ -90,6 +90,10 @@
                           
                             <div class="absolute left-0 z-20 w-full px-5 py-3 duration-300 bg-white lg:w-auto navbar-collapse lg:block top-full mt-full lg:static lg:bg-transparent shadow lg:shadow-none" id="navbarOne">
                                 <ul id="nav" class="items-center content-start mr-auto lg:justify-end navbar-nav lg:flex">
+                                   
+                                    
+                                  
+                                   
                                     <li class="nav-item ml-5 lg:ml-11">
                                     <div class="dropdown dropdown-hover product-hover" id="idProduct">
                                         <a class="fa fa-chevron-down"> Battery</a>
@@ -107,7 +111,7 @@
                                             <a href="/solar">Solar Panel</a></br>
                                            
                                         </div>
-                                        <!-- <div class="testProduct" id="test-product">
+                                        <div class="testProduct" id="test-product">
                                           <div class="imgProduct" style="display: flex; display: flex;
                                           flex-direction: row;
                                           justify-content: space-around;">
@@ -146,7 +150,7 @@
                                         <br>
                                         Custom Batteries
                                         </a>     
-                                                </div>  -->
+                                                </div> 
                                     </div>
                                 </li>
 
@@ -166,7 +170,7 @@
                                         
                                            
                                         </div>
-                                        <!-- <div class="testProduct" id="test-product">
+                                        <div class="testProduct" id="test-product">
                                           <div class="imgProduct" style="display: flex; display: flex;
                                           flex-direction: row;
                                           justify-content: space-around;">
@@ -205,7 +209,7 @@
                                         <br>
                                         Custom Batteries
                                         </a>     
-                                                </div>  -->
+                                                </div> 
                                     </div>
                                 </li>
                                 
@@ -220,10 +224,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div id="test-product" class="testProduct" >
-                                          <!-- Dynamic content will be injected here -->
-                                      </div>
-                                        <!-- <div class="testProduct" id="test-product">
+                                        <div class="testProduct" id="test-product">
                                           <div class="imgProduct" style="display: flex; display: flex;
                                           flex-direction: row;
                                           justify-content: space-around;">
@@ -262,7 +263,7 @@
                                         <br>
                                         Custom Batteries
                                         </a>     
-                                                </div>  -->
+                                                </div> 
                                     </div>
                                 </li>
 
@@ -277,7 +278,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- <div class="testProduct" id="test-product">
+                                        <div class="testProduct" id="test-product">
                                           <div class="imgProduct" style="display: flex; display: flex;
                                           flex-direction: row;
                                           justify-content: space-around;">
@@ -316,14 +317,10 @@
                                         <br>
                                         Custom Batteries
                                           </a>    
+                                                </div> 
+                       </a>    
                                                 </div>  -->
-                                    </div>
-                                </li>
-                                    <li class="nav-item ml-5 lg:ml-11">
-                                        <a class="" href="/about">About Us</a>
-                                    </li>
-
-                                    <li class="nav-item ml-5 lg:ml-11">
+="nav-item ml-5 lg:ml-11">
                                         <a class="page-scroll" href="">News</a>
                                     </li>
 
@@ -375,21 +372,13 @@
             <div class="md:flex row mx-auto">
                 @foreach ($portofolio as $item)
                 <div class="max-w-sm rounded mx-auto md:mb-8 mb-4 ">
-                    <div class="hover-box rounded"><img class="img-fluid" src="{{ asset('storage/' . $item->foto_portofolio) }}" alt="">
-                    <div class="p-5 text-center ">
+                    <div class="hover-box rounded"><img class="img-fluid" src="{{ asset('storage/' . $item->foto_portofolio) }}" @foreach ($portofolio as $item)iv class="p-5 text-center ">
                         {{ $item->title_portofolio }}
-                        <!-- <span class="text-sm">{{ $item->name }}</span> -->
-                   
+                        <!-- <span class="text-sm">{{ $item->name {{ asset('storage/' . $item->foto_portofolio) }}        </div>
                     </div>
-                    </div>
-                </div>
-                @endforeach
-            </div>
-            </div>
-        </div>
-    </section>
-
-    <!--====== WORK PART ENDS ======-->
+                <
+                        {{ $item->title_portofolio }}
+                        <span class="text-sm">{{ $item->name }}</span>NDS ====== -->
 
 
 
@@ -397,8 +386,7 @@
     <!--====== BLOG PART ENDS ======-->
 
     <!--====== CONTACT PART START ======-->
-    <section
-      id="about"
+    <sec@endforeach id="about"
       class="bg-gray-1 pb-8 pt-20 dark:bg-dark-2 lg:pb-[70px] lg:pt-[120px]"
     >
       <div class="container">

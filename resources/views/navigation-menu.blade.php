@@ -22,10 +22,10 @@
                         {{ __('Profil') }}
                     </x-jet-nav-link>
                     <x-jet-nav-link href="{{ route('portofolio.index') }}" :active="request()->routeIs('portofolio.index')">
-                        {{ __('Blog') }}
+                        {{ __('Portofolio') }}
                     </x-jet-nav-link>
                     <x-jet-nav-link href="{{ route('blog.index') }}" :active="request()->routeIs('blog.index')">
-                        {{ __('Article') }}
+                        {{ __('Blog') }}
                     </x-jet-nav-link>
                     <x-jet-nav-link href="{{ route('gallery.index') }}" :active="request()->routeIs('gallery.index')">
                         {{ __('Gallery') }}
