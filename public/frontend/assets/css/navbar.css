@@ -1,7 +1,9 @@
-/* .dropdown-content:hover .testProduct{
-    display: block !important;
-  }
-  .product-hover:hover .testProduct {
-    display:block !important;
-  } */
-  
+imgProduct a {
+  display: block; /* Make the <a> block-level to center content */
+  text-align: center; /* Center text inside the <a> */
+}
+
+.imgProduct img {
+  display: block; /* Ensure image is block-level to respect centering */
+  margin: 0 auto; /* Center image horizontally */
+}
