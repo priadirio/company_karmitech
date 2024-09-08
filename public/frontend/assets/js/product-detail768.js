@@ -3,11 +3,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
       {
         name: "48V 100Ah",
-        imgSrc: "frontend/assets/images/Battery48501.jpg",
+        imgSrc: "frontend/assets/images/Battery7682802.jpg",
         imgChild: [
-            "frontend/assets/images/Battery48502.jpg",
-            "frontend/assets/images/Battery48501.jpg",
-            "frontend/assets/images/Battery48503.jpg",
+          "frontend/assets/images/Battery7682802.jpg",
+            "frontend/assets/images/Battery768280.jpg",
+            "frontend/assets/images/Battery7682801.jpg",
+            "frontend/assets/images/Battery7682803.jpg",
 
         ],
         desc: "",

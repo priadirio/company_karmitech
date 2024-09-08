@@ -151,7 +151,7 @@ strong{
                             <a class="navbar-brand mr-5">
                                 <img src="{{ asset('frontend/assets/images/KARMITECH-removebg-preview.png') }}" alt="Logo" width="125px" height="125px">
                             </a>
-                            <button class="block navbar-toggler focus:outline-none lg:hidden" type="button" data-toggle="collapse" data-target="#navbarOne" aria-controls="navbarOne" aria-expanded="false" aria-label="Toggle navigation">
+                            <button class="block navbar-toggler focus:outline-none lg:hidden" type="button" data-toggle="collapse" data-target="#navbarOne" aria-controls="navbarOne" aria-expanded="false" aria-label="Toggle navigation" id="burger-navbar">
                                 <span class="toggler-icon"></span>
                                 <span class="toggler-icon"></span>
                                 <span class="toggler-icon"></span>
@@ -160,53 +160,115 @@ strong{
                           
                             <div class="absolute left-0 z-20 w-full px-5 py-3 duration-300 bg-white lg:w-auto navbar-collapse lg:block top-full mt-full lg:static lg:bg-transparent shadow lg:shadow-none" id="navbarOne">
                                 <ul id="nav" class="items-center content-start mr-auto lg:justify-end navbar-nav lg:flex">
-                                    <li class="nav-item ml-5 lg:ml-11">
-                                        <a class="page-scroll" href="/">HOME</a>
-                                    </li>
-                                    <li class="nav-item ml-5 lg:ml-11">
-                                        <a class="" href="/about">ABOUT US</a>
-                                    </li>
-                                    <li class="nav-item ml-5 lg:ml-11">
-                                        <a class="page-scroll" href="">NEWS</a>
-                                    </li>
+                                   
+                                    
+                                  
                                    
                                     <li class="nav-item ml-5 lg:ml-11">
-                                    <div class="dropdown dropdown-hover">
-                                        <a class="fa fa-chevron-down"> PRODUCT</a>
+                                    <div class="dropdown dropdown-hover product-hover" id="idProduct">
+                                        <a class="fa fa-chevron-down"> Battery</a>
                                         <div class="dropdown-content">
-                                            <a href="/battery">Battery</a></br>
-                                            <!-- <div class="sub-dropdown">
+                                            <a id="menu-battery" class="battery" href="/battery">Battery</a></br>
+                                            <div class="sub-dropdown">
                                                 <a href="#" class="sub-dropdown-toggle">Type</a>
                                                 <div class="sub-dropdown-content">
-                                                    <a href="#">Type 1</a></br>
-                                                    <a href="#">Type 2</a></br>
-                                                    <a href="#">Type 3</a></br>
+                                                
                                                 </div>
-                                            </div> -->
+                                               
+                                            </div>
+
                                             <a href="#">SmartPole</a></br>
                                             <a href="/solar">Solar Panel</a></br>
+                                           
                                         </div>
+                                         
                                     </div>
                                 </li>
+
+                                <li class="nav-item ml-5 lg:ml-11">
+                                    <div class="dropdown dropdown-hover product-hover" id="idProduct">
+                                        <a class="fa fa-chevron-down"> Solar Panel</a>
+                                        <div class="dropdown-content">
+                                            <a id="menu-battery" class="battery" href="/battery">Battery</a></br>
+                                            <div class="sub-dropdown">
+                                                <a href="#" class="sub-dropdown-toggle">Type</a>
+                                                <div class="sub-dropdown-content">
+                                                
+                                                </div>
+                                               
+                                            </div>
+
+                                        
+                                           
+                                        </div>
+                                        
+                                    </div>
+                                </li>
+                                
+                                <li class="nav-item ml-5 lg:ml-11">
+                                    <div class="dropdown dropdown-hover product-hover" id="idProduct">
+                                        <a class="fa fa-chevron-down"> SmartPole</a>
+                                        <div class="dropdown-content">
+                                            <a id="menu-battery" class="battery" href="/battery">Battery</a></br>
+                                            <div class="sub-dropdown">
+                                                <a href="#" class="sub-dropdown-toggle">Type</a>
+                                                <div class="sub-dropdown-content">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="test-product" class="testProduct" >
+                                          <!-- Dynamic content will be injected here -->
+                                        </div>
+                                         
+                                    </div>
+                                </li>
+
+                                <li class="nav-item ml-5 lg:ml-11">
+                                    <div class="dropdown dropdown-hover product-hover" id="idProduct">
+                                        <a class="fa fa-chevron-down">Application</a>
+                                        <div class="dropdown-content">
+                                        
+                                            <div class="sub-dropdown">
+                                                <a href="#" class="sub-dropdown-toggle">Type</a>
+                                                <div class="sub-dropdown-content">
+                                                </div>
+                                            </div>
+                                        </div>
+                                         
+                                    </div>
+                                </li>
+                                    <li class="nav-item ml-5 lg:ml-11">
+                                        <a class="" href="/about">About Us</a>
+                                    </li>
+
+                                    <li class="nav-item ml-5 lg:ml-11">
+                                        <a class="page-scroll" href="">News</a>
+                                    </li>
+
                                     <li class="nav-item ml-5 lg:ml-11">
                                     <div class="dropdown dropdown-hover">
 
                                     
-                                    <a class="fa fa-chevron-down"> INSIGHT</a>
+                                    <a class="fa fa-chevron-down"> Insight</a>
                                     <div class="dropdown-content">
                                     <a href="/gallery">Gallery</a></br>
                                     <a href="#">Article</a></br>
 
                                     </div>
-                                        
-
                                     </li>
                                     <li class="nav-item ml-5 lg:ml-11">
-                                        <a class="page-scroll" href="#contact">CONTACT US</a>
+                                        <a class="page-scroll" href="#contact">Contact Us</a>
                                     </li>
                                 </ul>
                             </div> <!-- navbar collapse -->
+                            
                         </nav> <!-- navbar -->
+                        <div class="testProduct" id="test-product" style="display: none; z-index:99; position: absolute; width: -webkit-fill-available;
+                      top: 150px;
+                            background-color: mintcream; ">
+                            <center>test</center>
+
+                            </div>
                     </div>
                 </div> <!-- row -->
             </div> <!-- container -->
@@ -366,6 +428,7 @@ strong{
     <!--====== Main js ======-->
     <script src="{{ asset('frontend/assets/js/wow.min.js') }}"></script>
     <script src="{{ asset('frontend/assets/js/product-detail256100.js') }}"></script>
+    <script src="{{ asset('frontend/assets/js/navbar.js') }}"></script>
    
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://cdn.jsdelivr.net/npm/pagedone@1.2.1/src/js/pagedone.js"></script>

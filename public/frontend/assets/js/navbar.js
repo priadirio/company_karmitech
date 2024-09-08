@@ -1,23 +1,28 @@
 const productDataBatterai = [
     {
         imgSrc: "frontend/assets/images/batlogo.png",
-        title: '12.8V LiFePO4'
+        title: '12.8V LiFePO4',
+        href : '/battery'
     },
     {
         imgSrc: 'frontend/assets/images/batlogo.png',
-        title: '25.6V LiFePO4'
+        title: '25.6V LiFePO4',
+        href : '/battery256'
     },
     {
         imgSrc: 'frontend/assets/images/batlogo.png',
-        title: '48V LiFePO4'
+        title: '48V LiFePO4',
+        href : '/battery48'
     },
     {
         imgSrc: 'frontend/assets/images/batlogo.png',
-        title: '51.2V LiFePO4'
+        title: '51.2V LiFePO4',
+        href : '/battery512'
     },
     {
         imgSrc: 'frontend/assets/images/ess.png',
-        title: 'ESS'
+        title: 'ESS',
+        href : '/batteryess'
     },
     {
         imgSrc: 'frontend/assets/images/essacc.png',
@@ -147,9 +152,8 @@ document.addEventListener("DOMContentLoaded", () => {
             const productItem = document.createElement('a');
             productItem.innerHTML = `
                 <div style="text-align: center;">
-                    <img src="${product.imgSrc}" alt="${product.title}" width="75px" height="75px">
-                    <br>
-                    <span>${product.title}</span>
+                    <a href="${product.href}"><img src="${product.imgSrc}" alt="${product.title}" width="75px" height="75px"></a>
+                    <br><a href="${product.href}"> <span>${product.title}</span></a>
                 </div>
             `;
             contentDiv.appendChild(productItem);

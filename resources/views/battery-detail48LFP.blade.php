@@ -297,23 +297,24 @@ strong{
                 <!-- Description -->
                
                 <div>
-                <h1 style = "font-size : 32px;font-weight: 700" >A&amp;S A&S 51.2V 100Ah LiFePO4 </h1>
+                <h1 style = "font-size : 32px;font-weight: 700" >A&amp;S LFP48V 100Ah LiFePO4 Batteries</h1>
                 <br/>
                     <table>
                         <tbody>
                             
                             <tr class="firstRow">
-                                <td valign="top" style="word-break: break-all;"><strong>Model #&nbsp;:&nbsp;</strong>&nbsp;APW5120C</td>
-                                <td valign="top" style="word-break: break-all;"><strong>A&amp;S P/N&nbsp;:&nbsp;</strong>AS-PW5120-0100-611</td>
+                                <td valign="top" style="word-break: break-all;"><strong>Model #&nbsp;:&nbsp;</strong>&nbsp; AS48-100</td>
+                                <td valign="top" style="word-break: break-all;"><strong>A&amp;S P/N&nbsp;:&nbsp;</strong>AS-3U4800-0100-510</td>
                             </tr>
                             <tr>
                                 <td valign="top" style="word-break: break-all;">
-                                <strong>Size&nbsp;:&nbsp;&nbsp;</strong>		 (:mm / inch)693*420*170mm
-                                <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;33.85*21.25*6.29in</p>
+                                <strong>Size&nbsp;:&nbsp;&nbsp;</strong>		 (:mm / inch)482*410*132mm
+                                <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;18.97*16.14*5.19in</p>
                                 </td>
-                                <td valign="top" style="word-break: break-all;"><strong>Weight&nbsp;:&nbsp;&nbsp;</strong> 45.5KG/100.3lb</td>
+                                <td valign="top" style="word-break: break-all;"><strong>Weight&nbsp;:&nbsp;&nbsp;</strong> 36.5KG/80.46lb</td>
                             </tr>
                             <tr>
+                                <td valign="top" style="word-break: break-all;"><strong>Gross weight :&nbsp;&nbsp;</strong>38.6KG/85.09lb</td>
                                 <td valign="top" style="word-break: break-all;"><strong>Continuous Discharge Current&nbsp;:</strong>&nbsp;&nbsp;100A</td>
                             </tr>
                             <tr>
@@ -426,9 +427,8 @@ strong{
 
     <!--====== Main js ======-->
     <script src="{{ asset('frontend/assets/js/wow.min.js') }}"></script>
-    <script src="{{ asset('frontend/assets/js/product-detail512100.js') }}"></script>
+    <script src="{{ asset('frontend/assets/js/product-detail48LFP.js') }}"></script>
     <script src="{{ asset('frontend/assets/js/navbar.js') }}"></script>
-   
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://cdn.jsdelivr.net/npm/pagedone@1.2.1/src/js/pagedone.js"></script>
 

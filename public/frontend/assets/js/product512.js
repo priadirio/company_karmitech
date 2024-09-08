@@ -1,48 +1,41 @@
 document.addEventListener("DOMContentLoaded", () => {
   const colorOptions = [
     {
-      name: "12.8V 100Ah",
-      imgSrc: "frontend/assets/images/Battery1281002.jpg",
+      name: "51.2V 100Ah",
+      imgSrc: "frontend/assets/images/BatteryLFP5121001.jpg",
+      
       imgChild: [
-        // "frontend/assets/images/Battery1281001.jpg",
-        // "frontend/assets/images/Battery1281004.jpg",
+
       ],
-      href: '/battery-detail128100',
-      desc: "Penjelasan tipe Battery"
+      href: '/battery-detailLFP',
+      desc: "",
     },
     {
-      name: "12.8V 120Ah",
-      imgSrc: "frontend/assets/images/Battery1281202.jpg",
+      name: "51.2V 100Ah",
+      imgSrc: "frontend/assets/images/Battery5121003.jpg",
       imgChild: [
-        // "frontend/assets/images/Battery1281201.jpg",
-        // "frontend/assets/images/Battery1281203.jpg",
       ],
-      href: '/battery-detail128120',
-      desc: "Penjelasan tipe Battery"
+      href: '/battery-detail512100',
+      desc: "Penjelasan tipe Battery",
     },
     {
-      name: "12.8V 200Ah",
-      imgSrc: "frontend/assets/images/Battery1282003.jpg",
+      name: "51.2V 150Ah",
+      imgSrc: "frontend/assets/images/Battery5121503.jpg",
       imgChild: [
-        // "frontend/assets/images/Battery1282001.jpg",
-        // "frontend/assets/images/Battery1282002.jpg",
-        // "frontend/assets/images/Battery1282004.jpg",
       ],
-      href: '/battery-detail128200',
-      desc: "Penjelasan tipe Battery"
+      href: '/battery-detail512150',
+      desc: "Penjelasan tipe Battery",
     },
     {
-      name: "12.8V 50Ah",
-      imgSrc: "frontend/assets/images/Battery12502.jpg",
+      name: "51.2V 400Ah",
+      imgSrc: "frontend/assets/images/Battery5124001.jpg",
       imgChild: [
-        // "frontend/assets/images/Battery12501.jpg",
-        // "frontend/assets/images/Battery12503.jpg",
-        // "frontend/assets/images/Battery12504.jpg",
-        // "frontend/assets/images/Battery12505.jpg",
+
       ],
-      href: '/battery-detail',
-      desc: ""
+      href: '/battery-detail512400',
+      desc: "Penjelasan tipe Battery",
     },
+  
   ];
 
   const colorGridContainer = document.querySelector(".product-group");
@@ -60,7 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
           const imgBox = document.createElement("div");
           imgBox.classList.add("image-item");
           imgBox.innerHTML = `
-            <a href="${option.href}"><img style="padding-bottom: 20px;" src="${imgSrc}" alt="Battery image"></a>
+             <a href="${option.href}"><img style="padding-bottom: 20px;" src="${imgSrc}" alt="Battery image"></a>
             <p>${option.name}</p>
           `;
           colorGridContainer.appendChild(imgBox);

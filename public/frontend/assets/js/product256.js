@@ -2,41 +2,36 @@ document.addEventListener("DOMContentLoaded", () => {
   const colorOptions = [
     {
       name: "25.6V 100Ah",
-      imgSrc: "frontend/assets/images/Battery2561001.jpg",
+      imgSrc: "frontend/assets/images/Battery2561004.jpg",
       imgChild: [
-        "frontend/assets/images/Battery2561002.jpg",
-        "frontend/assets/images/Battery2561003.jpg",
-        "frontend/assets/images/Battery2561004.jpg",
       ],
       desc: "Penjelasan tipe Battery",
+      href: '/battery-detail256100',
     },
     {
       name: "25.6V 120Ah",
       imgSrc: "frontend/assets/images/Battery2561202.jpg",
       imgChild: [
-        "frontend/assets/images/Battery2561201.jpg",
-        "frontend/assets/images/Battery2561203.jpg",
       ],
+      href: '/battery-detail256120',
       desc: "Penjelasan tipe Battery",
     },
     {
       name: "25.6V 200Ah",
       imgSrc: "frontend/assets/images/Battery2562003.jpg",
       imgChild: [
-        "frontend/assets/images/Battery2562001.jpg",
-        "frontend/assets/images/Battery2562002.jpg",
-        "frontend/assets/images/Battery2562004.jpg",
+
       ],
+      href: '/battery-detail256200',
       desc: "Penjelasan tipe Battery",
     },
     {
       name: "25.6V 50Ah",
-      imgSrc: "frontend/assets/images/Battery256501.jpg",
+      imgSrc: "frontend/assets/images/Battery256503.jpg",
       imgChild: [
-        "frontend/assets/images/Battery256502.jpg",
-        "frontend/assets/images/Battery256503.jpg",
-        "frontend/assets/images/Battery256504.jpg",
+
       ],
+      href: '/battery-detail25650',
       desc: "",
     },
   ];
@@ -56,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
           const imgBox = document.createElement("div");
           imgBox.classList.add("image-item");
           imgBox.innerHTML = `
-            <img style="padding-bottom: 20px;" src="${imgSrc}" alt="Battery image">
+           <a href="${option.href}"><img style="padding-bottom: 20px;" src="${imgSrc}" alt="Battery image"></a>
             <p>${option.name}</p>
           `;
           colorGridContainer.appendChild(imgBox);

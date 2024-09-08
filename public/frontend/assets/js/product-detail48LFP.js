@@ -2,12 +2,15 @@ document.addEventListener("DOMContentLoaded", () => {
   const colorOptions = [
 
       {
-        name: "48V 100Ah",
-        imgSrc: "frontend/assets/images/Battery48501.jpg",
+        name: "51.2V LFP",
+        imgSrc: "frontend/assets/images/BatteryLFP481001.jpg",
         imgChild: [
-            "frontend/assets/images/Battery48502.jpg",
-            "frontend/assets/images/Battery48501.jpg",
-            "frontend/assets/images/Battery48503.jpg",
+            "frontend/assets/images/BatteryLFP481001.jpg",
+            "frontend/assets/images/BatteryLFP481002.jpg",
+            "frontend/assets/images/BatteryLFP481003.jpg",
+            "frontend/assets/images/BatteryLFP481004.jpg",
+            "frontend/assets/images/BatteryLFP481005.jpg",
+
 
         ],
         desc: "",

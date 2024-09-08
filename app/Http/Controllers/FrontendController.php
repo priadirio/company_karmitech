@@ -48,6 +48,21 @@ class FrontendController extends Controller
         return view('battery256');
     }
 
+    public function battery48()
+    {
+        return view('battery48');
+    }
+
+    public function battery512()
+    {
+        return view('battery512');
+    }
+
+    public function batteryess()
+    {
+        return view('batteryess');
+    }
+
     public function batteryDetail()
     {
         return view('battery-detail');
@@ -105,6 +120,10 @@ class FrontendController extends Controller
     {
         return view('battery-detail48200');
     }
+    public function batteryDetail48LFP()
+    {
+        return view('battery-detail48LFP');
+    }
 
     public function batteryDetail512100()
     {
@@ -126,6 +145,24 @@ class FrontendController extends Controller
         return view('battery-detailLFP');
     }
 
+    public function batteryDetail409()
+    {
+        return view('battery-detail409');
+    }
+    public function batteryDetail768()
+    {
+        return view('battery-detail768');
+    }
+
+    public function batteryDetail896()
+    {
+        return view('battery-detail896');
+    }
+
+    public function batteryDetail1331()
+    {
+        return view('battery-detail1331');
+    }
     public function solar()
     {
         return view('solar');
