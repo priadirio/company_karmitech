@@ -130,11 +130,9 @@ document.addEventListener("DOMContentLoaded", () => {
             navbar.style.display = 'none'
     }
     
-
-
-    // Select the product hover dropdown and the test product div
     const productHover = document.querySelectorAll('.dropdown-hover.product-hover');
     const testProduct = document.querySelector('#test-product');
+    let typeData = '';
     // Function to populate the testProduct div with data
     function populateTestProduct(productData) {
         testProduct.innerHTML = ''; // Clear existing content
@@ -148,11 +146,11 @@ document.addEventListener("DOMContentLoaded", () => {
         productData.forEach(product => {
             const productItem = document.createElement('a');
             productItem.innerHTML = `
-            <div style="text-align: center;">
-                <img src="${product.imgSrc}" alt="${product.title}" width="75px" height="75px">
-                <br>
-                <span>${product.title}</span>
-            </div>
+                <div style="text-align: center;">
+                    <img src="${product.imgSrc}" alt="${product.title}" width="75px" height="75px">
+                    <br>
+                    <span>${product.title}</span>
+                </div>
             `;
             contentDiv.appendChild(productItem);
         });
@@ -161,45 +159,64 @@ document.addEventListener("DOMContentLoaded", () => {
         testProduct.style.display = 'block'; // Show the test product container
     }
 
-    // Loop through each product hover element and add event listeners
+    // Show testProduct with data when hovering over dropdown
     productHover.forEach((dropdown) => {
-        // Show testProduct on hover
         dropdown.addEventListener('mouseenter', function () {
-            const category = dropdown.querySelector('a').textContent.trim();
-        
-            // Choose the product data based on category
-            let productData;
-            if (category === 'Solar Panel') {
-                productData = solarPanelData;
-            } else if (category === 'SmartPole') {
-                productData = smartpoleProductData;
-            } else if (category === 'Application') {
-                productData = productDataApplication;
-            } else if (category === 'Battery') {
-                productData = productDataBatterai;
-            } else {
-                // Handle other categories or default case
-                productData = []; // No data for unrecognized categories
-            }
+            if(typeData ===''){
+                
+                const category = dropdown.querySelector('a').textContent.trim();
+                
+                let productData;
+                if (category === 'Solar Panel') {
+                    typeData = category;
+                    productData = solarPanelData;
+                } else if (category === 'SmartPole') {
+                    typeData = category;
+                    productData = smartpoleProductData;
+                } else if (category === 'Application') {
+                    typeData = category;
+                    productData = productDataApplication;
+                } else if (category === 'Battery') {
+                    typeData = category;
+                    productData = productDataBatterai;
+                } else {
+                    // Handle other categories or default case
+                    productData = []; // No data for unrecognized categories
+                }
     
-            // Populate the test product with the selected category data
-            populateTestProduct(productData);
+                populateTestProduct(productData);
+            }
         });
 
-        // Hide testProduct when the mouse leaves both the dropdown and the testProduct
         dropdown.addEventListener('mouseleave', function () {
-            testProduct.style.display = "none";
+            // Delay hiding to avoid flickering when moving from dropdown to testProduct
+            setTimeout(() => {
+                if (!testProduct.matches(':hover')) {
+                    typeData ='';
+                    testProduct.style.display = 'none';
+                }
+            }, 200); // Adjust delay as needed
         });
+    });
 
-        // Optional: Keep testProduct visible when hovering over it directly
-        testProduct.addEventListener('mouseenter', function () {
-            testProduct.style.display = "block";
-        });
+    // Keep testProduct visible when hovering directly over it
+    testProduct.addEventListener('mouseenter', function () {
+        testProduct.style.display = 'block';
+        typeData ='';
+        
+    });
 
-        // Hide testProduct when mouse leaves the testProduct area
-        testProduct.addEventListener('mouseleave', function () {
-            testProduct.style.display = "none";
-        });
+    // Hide testProduct when mouse leaves it
+    testProduct.addEventListener('mouseleave', function () {
+        // Delay hiding to avoid flickering when moving from testProduct to dropdown
+        setTimeout(() => {
+            if (!document.querySelector('.dropdown-hover.product-hover:hover')) {
+                
+                testProduct.style.display = 'none';
+                typeData ='';
+            }
+            
+        }, 200); // Adjust delay as needed
     });
 
 

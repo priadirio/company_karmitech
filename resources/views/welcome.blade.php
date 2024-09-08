@@ -170,7 +170,7 @@
                                         
                                            
                                         </div>
-                                        <div class="testProduct" id="test-product">
+                                        <!-- <div class="testProduct" id="test-product">
                                           <div class="imgProduct" style="display: flex; display: flex;
                                           flex-direction: row;
                                           justify-content: space-around;">
@@ -209,7 +209,7 @@
                                         <br>
                                         Custom Batteries
                                         </a>     
-                                                </div> 
+                                                </div>  -->
                                     </div>
                                 </li>
                                 
@@ -224,7 +224,10 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="testProduct" id="test-product">
+                                        <div id="test-product" class="testProduct" >
+                                          <!-- Dynamic content will be injected here -->
+                                      </div>
+                                        <!-- <div class="testProduct" id="test-product">
                                           <div class="imgProduct" style="display: flex; display: flex;
                                           flex-direction: row;
                                           justify-content: space-around;">
@@ -263,7 +266,7 @@
                                         <br>
                                         Custom Batteries
                                         </a>     
-                                                </div> 
+                                                </div>  -->
                                     </div>
                                 </li>
 
@@ -278,7 +281,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="testProduct" id="test-product">
+                                        <!-- <div class="testProduct" id="test-product">
                                           <div class="imgProduct" style="display: flex; display: flex;
                                           flex-direction: row;
                                           justify-content: space-around;">
@@ -317,10 +320,14 @@
                                         <br>
                                         Custom Batteries
                                           </a>    
-                                                </div> 
-                       </a>    
                                                 </div>  -->
-="nav-item ml-5 lg:ml-11">
+                                    </div>
+                                </li>
+                                    <li class="nav-item ml-5 lg:ml-11">
+                                        <a class="" href="/about">About Us</a>
+                                    </li>
+
+                                    <li class="nav-item ml-5 lg:ml-11">
                                         <a class="page-scroll" href="">News</a>
                                     </li>
 
