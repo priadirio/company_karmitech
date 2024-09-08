@@ -1,4 +1,4 @@
-<?php
+public/frontend/assets/js/product-detail128100.js<?php
 
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Http\Request;

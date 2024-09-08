@@ -2,11 +2,14 @@ document.addEventListener("DOMContentLoaded", () => {
   const colorOptions = [
 
       {
-        name: "48V 100Ah",
-        imgSrc: "frontend/assets/images/Battery48501.jpg",
+        name: "51.2V 100Ah",
+        imgSrc: "frontend/assets/images/Battery5121003.jpg",
         imgChild: [
-            "frontend/assets/images/Battery48502.jpg",
-            "frontend/assets/images/Battery48503.jpg",
+            "frontend/assets/images/Battery5121001.jpg",
+            "frontend/assets/images/Battery5121002.jpg",
+            "frontend/assets/images/Battery5121003.jpg",
+            "frontend/assets/images/Battery5121004.jpg",
+            "frontend/assets/images/Battery5121005.jpg",
 
         ],
         desc: "",
