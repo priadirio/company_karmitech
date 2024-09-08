@@ -52,6 +52,16 @@ class FrontendController extends Controller
     {
         return view('battery-detail128100');
     }
+    public function batteryDetail128120()
+    {
+        return view('battery-detail128120');
+    }
+
+    public function batteryDetail128200()
+    {
+        return view('battery-detail128200');
+    }
+
     public function solar()
     {
         return view('solar');

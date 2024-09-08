@@ -1347,15 +1347,12 @@ a, button {
 .testProduct{
   display: none; 
   z-index:99; 
-  width: 100vw; 
+  width: 75vw; 
   position: absolute;
   
   transform: translateX(-50%); 
   background-color: rgb(156, 194, 252); 
   height: 150px;
-
-
-
 }
 
 
