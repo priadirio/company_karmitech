@@ -296,7 +296,7 @@
   <nav>
     <h6 class="footer-title" style="color:#FFFF;">Contact</h6>
     
-    <i class="fa fa-phone " style="color:#FFFFFF;"> <a style="color:#FFFF;" > +621890992239</a></i>
+    <i class="fa fa-phone " style="color:#FFFFFF;"> <a style="color:#FFFF;" > (021)890992239</a></i>
     <i class="fa fa-envelope" style="color:#FFFFFF;"> <a style="color:#FFFF;" href="mailto:info@karmitechindonesia.id">info@karmitechindonesia.id</a></i>
   </nav>
   <nav>
@@ -306,11 +306,7 @@
     <a class="dark:text-white" style="color:#FFFF;" >Jl. Raya Jati Makmur No.100, Jatimakmur,  </a>
     <a class="dark:text-white" style="color:#FFFF;" >Kec. Pondok Gede, Kota Bekasi, Jawa Barat 17413</a>
   </nav>
-  <nav>
-  <h6 class="footer-title" style="color:#FFFF;">MANUFACTURING</h6>
-  <a class="fa fa-map-marker dark:text-white" style="color:#FFFF;"></a>
 
-  </nav>
 </footer>
 
     <!--====== FOOTER PART ENDS ======-->
