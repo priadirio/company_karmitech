@@ -26,11 +26,13 @@ const productDataBatterai = [
     },
     {
         imgSrc: 'frontend/assets/images/essacc.png',
-        title: 'ESS Accessories'
+        title: 'ESS Accessories',
+         href : '/batteryacc'
     },
     {
         imgSrc: 'frontend/assets/images/custom.png',
-        title: 'Custom Batteries'
+        title: 'Custom Batteries',
+        href : '/batterycustom'
     }
 ];
 
@@ -68,32 +70,29 @@ const productDataApplication = [
 const solarPanelData = [
     {
       imgSrc: "frontend/assets/images/logo_solar.png",
-      title: "12.8V LiFePO4",
+      title: "APM7-SH108",
     },
     {
       imgSrc: "frontend/assets/images/logo_solar.png",
-      title: "25.6V LiFePO4",
+      title: "APM7-SH120 ",
     },
     {
       imgSrc: "frontend/assets/images/logo_solar.png",
-      title: "48V LiFePO4",
+      title: "APM7-SH144",
     },
     {
       imgSrc: "frontend/assets/images/logo_solar.png",
-      title: "51.2V LiFePO4",
+      title: "APM7-SHLDD144",
     },
     {
       imgSrc: "frontend/assets/images/logo_solar.png",
-      title: "ESS",
+      title: "APM7-UHLDD144",
     },
     {
       imgSrc: "frontend/assets/images/logo_solar.png",
-      title: "ESS Accessories",
+      title: "APM8-TPLDD132 Series",
     },
-    {
-      imgSrc: "frontend/assets/images/logo_solar.png",
-      title: "Custom Batteries",
-    },
+
   ];    
 
 const smartpoleProductData = [

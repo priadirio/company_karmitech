@@ -45,6 +45,10 @@ Route::get('/battery256', [FrontendController::class, 'battery256'])->name('batt
 Route::get('/battery48', [FrontendController::class, 'battery48'])->name('battery48');
 Route::get('/battery512', [FrontendController::class, 'battery512'])->name('battery512');
 Route::get('/batteryess', [FrontendController::class, 'batteryess'])->name('batteryess');
+Route::get('/batteryacc', [FrontendController::class, 'batteryacc'])->name('batteryacc');
+Route::get('/batterycustom', [FrontendController::class, 'batterycustom'])->name('batterycustom');
+
+
 Route::get('/battery-detail', [FrontendController::class, 'batteryDetail'])->name('battery-detail');
 Route::get('/battery-detail128100', [FrontendController::class, 'batteryDetail128100'])->name('battery-detail128100');
 Route::get('/battery-detail128120', [FrontendController::class, 'batteryDetail128120'])->name('battery-detail128120');
@@ -65,6 +69,17 @@ Route::get('/battery-detail409', [FrontendController::class, 'batteryDetail409']
 Route::get('/battery-detail768', [FrontendController::class, 'batteryDetail768'])->name('battery-detail768');
 Route::get('/battery-detail896', [FrontendController::class, 'batteryDetail896'])->name('battery-detail896');
 Route::get('/battery-detail1331', [FrontendController::class, 'batteryDetail1331'])->name('battery-detail1331');
+Route::get('/battery-detailacc1', [FrontendController::class, 'batteryDetailacc1'])->name('battery-detailacc1');
+Route::get('/battery-detailacc2', [FrontendController::class, 'batteryDetailacc2'])->name('battery-detailacc2');
+
+
+Route::get('/battery-detailcustom1', [FrontendController::class, 'batteryDetailcustom1'])->name('battery-detailcustom1');
+Route::get('/battery-detailcustom2', [FrontendController::class, 'batteryDetailcustom2'])->name('battery-detailcustom2');
+Route::get('/battery-detailcustom3', [FrontendController::class, 'batteryDetailcustom3'])->name('battery-detailcustom3');
+Route::get('/battery-detailcustom4', [FrontendController::class, 'batteryDetailcustom4'])->name('battery-detailcustom4');
+Route::get('/battery-detailcustom5', [FrontendController::class, 'batteryDetailcustom5'])->name('battery-detailcustom5');
+Route::get('/battery-detailcustom6', [FrontendController::class, 'batteryDetailcustom6'])->name('battery-detailcustom6');
+
 Route::get('/solar', [FrontendController::class, 'solar'])->name('solar');
 Route::get('/product/{product:slug}', [ProductController::class, 'show']);
 Route::get('/gallery1', [FrontendController::class, 'gallery'])->name('gallery');
