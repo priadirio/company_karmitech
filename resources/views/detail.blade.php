@@ -196,6 +196,10 @@
             background-position: center center !important;
             background-size: cover !important;
         }
+        .banner_page img {
+            width: 100%;
+            display: block;
+        }
     </style>  
     
 <body>
