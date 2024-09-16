@@ -84,3 +84,4 @@ Route::get('/solar', [FrontendController::class, 'solar'])->name('solar');
 Route::get('/product/{product:slug}', [ProductController::class, 'show']);
 Route::get('/gallery1', [FrontendController::class, 'gallery'])->name('gallery');
 Route::get('/detail', [FrontendController::class, 'detailCustom'])->name('detail');
+Route::get('/contact-us', [FrontendController::class, 'contactUs'])->name('contact-us');
