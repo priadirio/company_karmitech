@@ -188,6 +188,14 @@
             border-spacing: 2px;
             border-color: gray;
         }
+        .banner_page {
+            height: auto;
+        }
+        .imgbj4 {
+            background-repeat: no-repeat !important;
+            background-position: center center !important;
+            background-size: cover !important;
+        }
     </style>  
     
 <body>
@@ -218,8 +226,6 @@
     <!--====== PRELOADER PART ENDS ======-->
     
     <!--====== HEADER PART START ======-->
-
-
 
 
     <section class="header_area">
@@ -353,112 +359,121 @@
                 </div> <!-- row -->
             </div> <!-- container -->
         </div> <!-- header navbar -->
-
-        
     </section>
-        <section class="py-24">
-            <div class="main_01 web_w" style="padding-top: 80px;">
+
+    
+        <section >
+        <div class="main_01 web_w" style="padding-top: 190px;">
+            <div class="banner_page imgbj4" style="width:100%; position:relative;">
+                <img src="{{ asset('frontend/assets/images/banner.jpg') }}">
+                <div class="toptext wow fadeInLeft animated animated" style="visibility: visible; animation-name: fadeInLeft;"></div>
+            </div>
+        </div>
+        </section>
+
+        <section>
+            <div class="main_01 web_w">
                 <div class="case_top">
                 <h1>Residential &amp; Consumer</h1>
                 <div class="case_toptext">
                             </div>
             </div>
-        <div class="casebox">
-                <ul class="tz-gallery">
-                    <li>
-                        <div><img src="{{ asset('frontend/assets/images/residential1.jpg') }}" width="300px" height="300px"></div>
-                        <h6>Tiny Houses, beach houses</h6><p>Residential &amp; Consumer</p>
-                    </li>
-                    <li>
-                        <div><img src="{{ asset('frontend/assets/images/residential2.jpg') }}"width="300px" height="300px"></div>
-                        <h6>Tiny Houses, beach houses</h6><p>Residential &amp; Consumer</p>
-                    </li>
-                    <li>
-                        <div><img src="{{ asset('frontend/assets/images/residential3.jpg') }}"width="300px" height="300px"></div>
-                        <h6>Tiny Houses, beach houses</h6><p>Residential &amp; Consumer</p>
-                    </li>
-                    <li>
-                        <div><img src="{{ asset('frontend/assets/images/residential4.jpg') }}"width="300px" height="300px"></div>
-                        <h6>Tiny Houses, beach houses</h6><p>Residential &amp; Consumer</p>
-                    </li>
-                    <li>
-                        <div><img src="{{ asset('frontend/assets/images/residential5.jpg') }}"width="300px" height="300px"></div>
-                        <h6>Tiny Houses, beach houses</h6><p>Residential &amp; Consumer</p>
-                    </li>
-                    <li>
-                        <div><img src="{{ asset('frontend/assets/images/residential5.jpg') }}"width="300px" height="300px"></div>
-                        <h6>Tiny Houses, beach houses</h6><p>Residential &amp; Consumer</p>
-                    </li>
-                 
-                        <!-- <li>
-                        <div><img src="upload_files/2023-09/202309251150437791.jpg"></div>
-                        <h6>Cottages, Cabins</h6><p>Residential &amp; Consumer</p>
-                    </li>
+            <div class="casebox">
+                    <ul class="tz-gallery">
                         <li>
-                        <div><img src="upload_files/2023-09/202309251152196791.jpeg"></div>
-                        <h6>Homes</h6><p>Residential &amp; Consumer</p>
-                    </li>
+                            <div><img src="{{ asset('frontend/assets/images/residential1.jpg') }}" width="300px" height="300px"></div>
+                            <h6>Tiny Houses, beach houses</h6><p>Residential &amp; Consumer</p>
+                        </li>
                         <li>
-                        <div><img src="upload_files/2023-09/202309251156441277.jpg"></div>
-                        <h6>Marines, boats</h6><p>Residential &amp; Consumer</p>
-                    </li>
+                            <div><img src="{{ asset('frontend/assets/images/residential2.jpg') }}"width="300px" height="300px"></div>
+                            <h6>Tiny Houses, beach houses</h6><p>Residential &amp; Consumer</p>
+                        </li>
                         <li>
-                        <div><img src="upload_files/2023-09/202309250139491110.jpg"></div>
-                        <h6>RVs, trailers</h6><p>Residential &amp; Consumer</p>
-                    </li>
+                            <div><img src="{{ asset('frontend/assets/images/residential3.jpg') }}"width="300px" height="300px"></div>
+                            <h6>Tiny Houses, beach houses</h6><p>Residential &amp; Consumer</p>
+                        </li>
                         <li>
-                        <div><img src="upload_files/2023-09/202309250141336796.jpg"></div>
-                        <h6>Electric vehicle charging</h6><p>Residential &amp; Consumer</p>
-                    </li> -->
-                </ul>
-            <div class="clear2"></div>
+                            <div><img src="{{ asset('frontend/assets/images/residential4.jpg') }}"width="300px" height="300px"></div>
+                            <h6>Tiny Houses, beach houses</h6><p>Residential &amp; Consumer</p>
+                        </li>
+                        <li>
+                            <div><img src="{{ asset('frontend/assets/images/residential5.jpg') }}"width="300px" height="300px"></div>
+                            <h6>Tiny Houses, beach houses</h6><p>Residential &amp; Consumer</p>
+                        </li>
+                        <li>
+                            <div><img src="{{ asset('frontend/assets/images/residential5.jpg') }}"width="300px" height="300px"></div>
+                            <h6>Tiny Houses, beach houses</h6><p>Residential &amp; Consumer</p>
+                        </li>
+                    
+                            <!-- <li>
+                            <div><img src="upload_files/2023-09/202309251150437791.jpg"></div>
+                            <h6>Cottages, Cabins</h6><p>Residential &amp; Consumer</p>
+                        </li>
+                            <li>
+                            <div><img src="upload_files/2023-09/202309251152196791.jpeg"></div>
+                            <h6>Homes</h6><p>Residential &amp; Consumer</p>
+                        </li>
+                            <li>
+                            <div><img src="upload_files/2023-09/202309251156441277.jpg"></div>
+                            <h6>Marines, boats</h6><p>Residential &amp; Consumer</p>
+                        </li>
+                            <li>
+                            <div><img src="upload_files/2023-09/202309250139491110.jpg"></div>
+                            <h6>RVs, trailers</h6><p>Residential &amp; Consumer</p>
+                        </li>
+                            <li>
+                            <div><img src="upload_files/2023-09/202309250141336796.jpg"></div>
+                            <h6>Electric vehicle charging</h6><p>Residential &amp; Consumer</p>
+                        </li> -->
+                    </ul>
+                <div class="clear2"></div>
+            </div>
+            <div class="caseprolist">
+            <h1>PRODUCTS</h1>
+            <div class="swiper-container swiper-container-initialized swiper-container-horizontal">
+                <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(-5996.25px, 0px, 0px);"><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="4" style="width: 719.5px; margin-right: 80px;">
+                        <div class="text-h"><a href="productshow_2136.html"><h3>450</h3><table><tbody><tr class="firstRow"><td valign="top" style="word-break: break-all;"><strong>Model # :</strong>&nbsp; AS24-120</td><td valign="top" style="word-break: break-all;"><strong>A&amp;S P/N&nbsp;:</strong>&nbsp;&nbsp;AS-DC3072-0120-810</td></tr><tr><td valign="top" style="word-break: break-all;"><strong>Size: 		 (mm / inch)&nbsp;:</strong>&nbsp; 522*269*220mm<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;20.55*10.59*8.66in</p></td><td valign="top" style="word-break: break-all;"><strong>Weight&nbsp;:</strong>&nbsp;&nbsp;23.6KG/52.02lb</td></tr><tr><td valign="top" style="word-break: break-all;"><strong>Gross Weight&nbsp; :</strong>&nbsp;&nbsp;25.8KG/56.87lb</td><td valign="top" style="word-break: break-all;"><strong>Continuous Discharge Current&nbsp;:</strong>&nbsp;&nbsp;100A</td></tr><tr><td style="word-break: break-all;"><strong>Peak Discharge Current&nbsp;:</strong>&nbsp;&nbsp;200A(3S)</td><td>Cycle Life (100%, 80%, 50% DOD)</td></tr></tbody></table><p><strong>Prod lead time : </strong> 3 - 4 weeks (urgent case 2 weeks)</p></a></div>
+                        <div class="img"><a href="productshow_2136.html"><img class="flash" src="{{ asset('frontend/assets/images/solar_panel_2-removebg-preview.png') }}"></a></div>
+                    </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="5" style="width: 719.5px; margin-right: 80px;">
+                        <div class="text-h"><a href="productshow_2267.html"><h3>51.2V 400Ah</h3><table><tbody><tr class="firstRow"><td valign="top" style="word-break: break-all;"><strong>Model #&nbsp;:&nbsp;</strong>&nbsp;ADD2048K</td><td valign="top" style="word-break: break-all;"><strong>A&amp;S P/N&nbsp;:&nbsp;&nbsp;</strong>AS-DD2048-0400-610</td></tr><tr><td valign="top" style="word-break: break-all;"><p><strong>Size&nbsp;:&nbsp;</strong>(:mm / inch)&nbsp;585*550840mm</p><p><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong>23.03*21.65*33.071n</p></td><td valign="top" style="word-break: break-all;"><strong>Weight&nbsp;:&nbsp;&nbsp; </strong>200KG/264.55Ib</td></tr><tr><td valign="top" style="word-break: break-all;"><strong>Gross weight :&nbsp;</strong>&nbsp;230KS/507lb</td><td valign="top" style="word-break: break-all;"><strong>Continuous Discharge Current : </strong>100A</td></tr><tr><td style="word-break: break-all;"><strong>Peak Discharge Current&nbsp;:&nbsp;</strong>&nbsp;400A</td><td>Cycle Life (100%, 80%, 50% DOD)</td></tr></tbody></table><p><strong>Prod lead time : </strong> 3 - 4 weeks (urgent case 2 weeks)</p></a></div>
+                        <div class="img"><a href="productshow_2267.html"><img class="flash" src="{{ asset('frontend/assets/images/solar_panel_2-removebg-preview.png') }}"></a></div>
+                    </div>
+                                <div class="swiper-slide swiper-slide-duplicate-active" data-swiper-slide-index="0" style="width: 719.5px; margin-right: 80px;">
+                        <div class="text-h"><a href="productshow_2158.html"><h3>51.2V 100Ah</h3><table><tbody><tr class="firstRow"><td valign="top" style="word-break: break-all;"><strong>Model #&nbsp;:&nbsp;</strong>&nbsp;APW5120C</td><td valign="top" style="word-break: break-all;"><strong>A&amp;S P/N&nbsp;:&nbsp;&nbsp;</strong>AS-PW5120-0100-610</td></tr><tr><td valign="top" style="word-break: break-all;"><p><strong>Size&nbsp;:&nbsp;&nbsp; </strong>		 (:mm / inch)&nbsp;600*420*210mm</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 23.62*16.53*8.26 in</p></td><td valign="top" style="word-break: break-all;"><strong>Weight&nbsp;:&nbsp;&nbsp; </strong>55.5KG/122.3lb</td></tr><tr><td style="word-break: break-all;"><strong>Peak Discharge Current&nbsp;:&nbsp;</strong>&nbsp;150A(3S)</td><td>Cycle Life (100%, 80%, 50% DOD)</td></tr></tbody></table><p><strong>Prod lead time : </strong> 3 - 4 weeks (urgent case 2 weeks)</p></a></div>
+                        <div class="img"><a href="productshow_2158.html"><img class="flash" src="{{ asset('frontend/assets/images/solar_panel_2-removebg-preview.png') }}"></a></div>
+                    </div>
+                                <div class="swiper-slide swiper-slide-duplicate-next" data-swiper-slide-index="1" style="width: 719.5px; margin-right: 80px;">
+                        <div class="text-h"><a href="productshow_2155.html"><h3>UP5000-HM8042   </h3><table><tbody><tr class="firstRow"><td valign="top" style="word-break: break-all;"><strong>Model # :&nbsp;</strong>UP5000-HM8042&nbsp;</td><td valign="top" style="word-break: break-all;"><strong>A&amp;S P/N :&nbsp;</strong>AS-INV005-0220-110</td></tr><tr><td valign="top" style="word-break: break-all;"><strong>Size :</strong> 		 (:mm / inch) 642.5*381.6*149mm<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 47.24*31.49*80.7 in</p></td><td valign="top" style="word-break: break-all;"><strong>Weight :</strong> 19KG/41.88lb</td></tr><tr><td valign="top" style="word-break: break-all;"><strong>Rated voltage :&nbsp;</strong>220V-230V</td><td valign="top" style="word-break: break-all;"><strong>Rated current :&nbsp;</strong>60A</td></tr><tr><td style="word-break: break-all;"><strong>Rated frequency :&nbsp;</strong>50/60Hz</td><td>Cycle Life (100%, 80%, 50% DOD)</td></tr></tbody></table><p><strong>Prod lead time : </strong> 3 - 4 weeks (urgent case 2 weeks)</p></a></div>
+                        <div class="img"><a href="productshow_2155.html"><img class="flash" src="{{ asset('frontend/assets/images/solar_panel_2-removebg-preview.png') }}"></a></div>
+                    </div>
+                                <div class="swiper-slide" data-swiper-slide-index="2" style="width: 719.5px; margin-right: 80px;">
+                        <div class="text-h"><a href="productshow_2153.html"><h3>450W photovoltaic module</h3><table><tbody><tr class="firstRow"><td valign="top" style="word-break: break-all;"><strong>Types of :&nbsp;</strong>450W solar panel cells</td><td valign="top" style="word-break: break-all;"><strong>A&amp;S P/N :&nbsp;</strong>AS-PV0450-0000-100</td></tr><tr><td valign="top" style="word-break: break-all;"><strong>Size :</strong> 		 (:mm / inch) 1910*1134*35mm<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;75.19*44.64*1.37in</p></td><td valign="top" style="word-break: break-all;"><strong>Weight :&nbsp;</strong>24KG/52.9lb</td></tr><tr><td valign="top" style="word-break: break-all;"><strong>Optimal operating current :&nbsp;</strong>12.78A</td><td valign="top" style="word-break: break-all;"><strong>Module efficiency :&nbsp;</strong>20.78%</td></tr><tr><td style="word-break: break-all;"><strong>Maximum rated fuse current&nbsp;:&nbsp;</strong>25A</td><td>Cycle Life (100%, 80%, 50% DOD)</td></tr></tbody></table><p><strong>Prod lead time : </strong> 3 - 4 weeks (urgent case 2 weeks)</p></a></div>
+                        <div class="img"><a href="productshow_2153.html"><img class="flash" src="{{ asset('frontend/assets/images/solar_panel_2-removebg-preview.png') }}"></a></div>
+                    </div>
+                                <div class="swiper-slide" data-swiper-slide-index="3" style="width: 719.5px; margin-right: 80px;">
+                        <div class="text-h"><a href="productshow_2265.html"><h3>48V 100Ah</h3><table><tbody><tr class="firstRow"><td valign="top" style="word-break: break-all;"><strong>Model # :&nbsp;</strong>AS48-100</td><td valign="top" style="word-break: break-all;"><strong>A&amp;S P/N :&nbsp;</strong>AS-DC4800-0100-510</td></tr><tr><td valign="top" style="word-break: break-all;"><p><strong>Size(:mm / inch) :&nbsp;</strong>522x 240x 220mm</p><p><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong>20.55*9.44*8.66in</p></td><td valign="top" style="word-break: break-all;"><strong>Weight :&nbsp;</strong>35.5KG/78.26lb</td></tr><tr><td valign="top" style="word-break: break-all;"><strong>Gross weight :&nbsp;</strong>37.4KG/82.45lb</td><td valign="top" style="word-break: break-all;"><strong>Continuous Discharge Current :</strong>&nbsp;100A</td></tr><tr><td style="word-break: break-all;"><strong>Peak Discharge Current :&nbsp;</strong>150A(3S)</td><td>Cycle Life (100%, 80%, 50% DOD)</td></tr></tbody></table><p><strong>Prod lead time : </strong> 3 - 4 weeks (urgent case 2 weeks)</p></a></div>
+                        <div class="img"><a href="productshow_2265.html"><img class="flash" src="{{ asset('frontend/assets/images/solar_panel_2-removebg-preview.png') }}"></a></div>
+                    </div>
+                                <div class="swiper-slide" data-swiper-slide-index="4" style="width: 719.5px; margin-right: 80px;">
+                        <div class="text-h"><a href="productshow_2136.html"><h3>25.6V 120Ah</h3><table><tbody><tr class="firstRow"><td valign="top" style="word-break: break-all;"><strong>Model # :</strong>&nbsp; AS24-120</td><td valign="top" style="word-break: break-all;"><strong>A&amp;S P/N&nbsp;:</strong>&nbsp;&nbsp;AS-DC3072-0120-810</td></tr><tr><td valign="top" style="word-break: break-all;"><strong>Size: 		 (mm / inch)&nbsp;:</strong>&nbsp; 522*269*220mm<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;20.55*10.59*8.66in</p></td><td valign="top" style="word-break: break-all;"><strong>Weight&nbsp;:</strong>&nbsp;&nbsp;23.6KG/52.02lb</td></tr><tr><td valign="top" style="word-break: break-all;"><strong>Gross Weight&nbsp; :</strong>&nbsp;&nbsp;25.8KG/56.87lb</td><td valign="top" style="word-break: break-all;"><strong>Continuous Discharge Current&nbsp;:</strong>&nbsp;&nbsp;100A</td></tr><tr><td style="word-break: break-all;"><strong>Peak Discharge Current&nbsp;:</strong>&nbsp;&nbsp;200A(3S)</td><td>Cycle Life (100%, 80%, 50% DOD)</td></tr></tbody></table><p><strong>Prod lead time : </strong> 3 - 4 weeks (urgent case 2 weeks)</p></a></div>
+                        <div class="img"><a href="productshow_2136.html"><img class="flash" src="{{ asset('frontend/assets/images/solar_panel_2-removebg-preview.png') }}"></a></div>
+                    </div>
+                                <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="5" style="width: 719.5px; margin-right: 80px;">
+                        <div class="text-h"><a href="productshow_2267.html"><h3>51.2V 400Ah</h3><table><tbody><tr class="firstRow"><td valign="top" style="word-break: break-all;"><strong>Model #&nbsp;:&nbsp;</strong>&nbsp;ADD2048K</td><td valign="top" style="word-break: break-all;"><strong>A&amp;S P/N&nbsp;:&nbsp;&nbsp;</strong>AS-DD2048-0400-610</td></tr><tr><td valign="top" style="word-break: break-all;"><p><strong>Size&nbsp;:&nbsp;</strong>(:mm / inch)&nbsp;585*550840mm</p><p><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong>23.03*21.65*33.071n</p></td><td valign="top" style="word-break: break-all;"><strong>Weight&nbsp;:&nbsp;&nbsp; </strong>200KG/264.55Ib</td></tr><tr><td valign="top" style="word-break: break-all;"><strong>Gross weight :&nbsp;</strong>&nbsp;230KS/507lb</td><td valign="top" style="word-break: break-all;"><strong>Continuous Discharge Current : </strong>100A</td></tr><tr><td style="word-break: break-all;"><strong>Peak Discharge Current&nbsp;:&nbsp;</strong>&nbsp;400A</td><td>Cycle Life (100%, 80%, 50% DOD)</td></tr></tbody></table><p><strong>Prod lead time : </strong> 3 - 4 weeks (urgent case 2 weeks)</p></a></div>
+                        <div class="img"><a href="productshow_2267.html"><img class="flash" src="upload_files/2023-11/202311010353165762.png"></a></div>
+                    </div>
+                            <div class="swiper-slide swiper-slide-duplicate swiper-slide-active" data-swiper-slide-index="0" style="width: 719.5px; margin-right: 80px;">
+                        <div class="text-h"><a href="productshow_2158.html"><h3>51.2V 100Ah</h3><table><tbody><tr class="firstRow"><td valign="top" style="word-break: break-all;"><strong>Model #&nbsp;:&nbsp;</strong>&nbsp;APW5120C</td><td valign="top" style="word-break: break-all;"><strong>A&amp;S P/N&nbsp;:&nbsp;&nbsp;</strong>AS-PW5120-0100-610</td></tr><tr><td valign="top" style="word-break: break-all;"><p><strong>Size&nbsp;:&nbsp;&nbsp; </strong>		 (:mm / inch)&nbsp;600*420*210mm</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 23.62*16.53*8.26 in</p></td><td valign="top" style="word-break: break-all;"><strong>Weight&nbsp;:&nbsp;&nbsp; </strong>55.5KG/122.3lb</td></tr><tr><td style="word-break: break-all;"><strong>Peak Discharge Current&nbsp;:&nbsp;</strong>&nbsp;150A(3S)</td><td>Cycle Life (100%, 80%, 50% DOD)</td></tr></tbody></table><p><strong>Prod lead time : </strong> 3 - 4 weeks (urgent case 2 weeks)</p></a></div>
+                        <div class="img"><a href="productshow_2158.html"><img class="flash" src="{{ asset('frontend/assets/images/solar_panel_2-removebg-preview.png') }}"></a></div>
+                    </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-next" data-swiper-slide-index="1" style="width: 719.5px; margin-right: 80px;">
+                        <div class="text-h"><a href="productshow_2155.html"><h3>UP5000-HM8042   </h3><table><tbody><tr class="firstRow"><td valign="top" style="word-break: break-all;"><strong>Model # :&nbsp;</strong>UP5000-HM8042&nbsp;</td><td valign="top" style="word-break: break-all;"><strong>A&amp;S P/N :&nbsp;</strong>AS-INV005-0220-110</td></tr><tr><td valign="top" style="word-break: break-all;"><strong>Size :</strong> 		 (:mm / inch) 642.5*381.6*149mm<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 47.24*31.49*80.7 in</p></td><td valign="top" style="word-break: break-all;"><strong>Weight :</strong> 19KG/41.88lb</td></tr><tr><td valign="top" style="word-break: break-all;"><strong>Rated voltage :&nbsp;</strong>220V-230V</td><td valign="top" style="word-break: break-all;"><strong>Rated current :&nbsp;</strong>60A</td></tr><tr><td style="word-break: break-all;"><strong>Rated frequency :&nbsp;</strong>50/60Hz</td><td>Cycle Life (100%, 80%, 50% DOD)</td></tr></tbody></table><p><strong>Prod lead time : </strong> 3 - 4 weeks (urgent case 2 weeks)</p></a></div>
+                        <div class="img"><a href="productshow_2155.html"><img class="flash" src="{{ asset('frontend/assets/images/solar_panel_2-removebg-preview.png') }}"></a></div>
+                    </div></div>
+                <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 6"></span></div>
+            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+            <div class="case_pall"><a href="product.html">ALL PRODUCTS</a></div>
         </div>
-        <div class="caseprolist">
-	<h1>PRODUCTS</h1>
-  	<div class="swiper-container swiper-container-initialized swiper-container-horizontal">
-		<div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(-5996.25px, 0px, 0px);"><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="4" style="width: 719.5px; margin-right: 80px;">
-				<div class="text-h"><a href="productshow_2136.html"><h3>450</h3><table><tbody><tr class="firstRow"><td valign="top" style="word-break: break-all;"><strong>Model # :</strong>&nbsp; AS24-120</td><td valign="top" style="word-break: break-all;"><strong>A&amp;S P/N&nbsp;:</strong>&nbsp;&nbsp;AS-DC3072-0120-810</td></tr><tr><td valign="top" style="word-break: break-all;"><strong>Size: 		 (mm / inch)&nbsp;:</strong>&nbsp; 522*269*220mm<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;20.55*10.59*8.66in</p></td><td valign="top" style="word-break: break-all;"><strong>Weight&nbsp;:</strong>&nbsp;&nbsp;23.6KG/52.02lb</td></tr><tr><td valign="top" style="word-break: break-all;"><strong>Gross Weight&nbsp; :</strong>&nbsp;&nbsp;25.8KG/56.87lb</td><td valign="top" style="word-break: break-all;"><strong>Continuous Discharge Current&nbsp;:</strong>&nbsp;&nbsp;100A</td></tr><tr><td style="word-break: break-all;"><strong>Peak Discharge Current&nbsp;:</strong>&nbsp;&nbsp;200A(3S)</td><td>Cycle Life (100%, 80%, 50% DOD)</td></tr></tbody></table><p><strong>Prod lead time : </strong> 3 - 4 weeks (urgent case 2 weeks)</p></a></div>
-				<div class="img"><a href="productshow_2136.html"><img class="flash" src="{{ asset('frontend/assets/images/solar_panel_2-removebg-preview.png') }}"></a></div>
-			</div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="5" style="width: 719.5px; margin-right: 80px;">
-				<div class="text-h"><a href="productshow_2267.html"><h3>51.2V 400Ah</h3><table><tbody><tr class="firstRow"><td valign="top" style="word-break: break-all;"><strong>Model #&nbsp;:&nbsp;</strong>&nbsp;ADD2048K</td><td valign="top" style="word-break: break-all;"><strong>A&amp;S P/N&nbsp;:&nbsp;&nbsp;</strong>AS-DD2048-0400-610</td></tr><tr><td valign="top" style="word-break: break-all;"><p><strong>Size&nbsp;:&nbsp;</strong>(:mm / inch)&nbsp;585*550840mm</p><p><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong>23.03*21.65*33.071n</p></td><td valign="top" style="word-break: break-all;"><strong>Weight&nbsp;:&nbsp;&nbsp; </strong>200KG/264.55Ib</td></tr><tr><td valign="top" style="word-break: break-all;"><strong>Gross weight :&nbsp;</strong>&nbsp;230KS/507lb</td><td valign="top" style="word-break: break-all;"><strong>Continuous Discharge Current : </strong>100A</td></tr><tr><td style="word-break: break-all;"><strong>Peak Discharge Current&nbsp;:&nbsp;</strong>&nbsp;400A</td><td>Cycle Life (100%, 80%, 50% DOD)</td></tr></tbody></table><p><strong>Prod lead time : </strong> 3 - 4 weeks (urgent case 2 weeks)</p></a></div>
-				<div class="img"><a href="productshow_2267.html"><img class="flash" src="{{ asset('frontend/assets/images/solar_panel_2-removebg-preview.png') }}"></a></div>
-			</div>
-						<div class="swiper-slide swiper-slide-duplicate-active" data-swiper-slide-index="0" style="width: 719.5px; margin-right: 80px;">
-				<div class="text-h"><a href="productshow_2158.html"><h3>51.2V 100Ah</h3><table><tbody><tr class="firstRow"><td valign="top" style="word-break: break-all;"><strong>Model #&nbsp;:&nbsp;</strong>&nbsp;APW5120C</td><td valign="top" style="word-break: break-all;"><strong>A&amp;S P/N&nbsp;:&nbsp;&nbsp;</strong>AS-PW5120-0100-610</td></tr><tr><td valign="top" style="word-break: break-all;"><p><strong>Size&nbsp;:&nbsp;&nbsp; </strong>		 (:mm / inch)&nbsp;600*420*210mm</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 23.62*16.53*8.26 in</p></td><td valign="top" style="word-break: break-all;"><strong>Weight&nbsp;:&nbsp;&nbsp; </strong>55.5KG/122.3lb</td></tr><tr><td style="word-break: break-all;"><strong>Peak Discharge Current&nbsp;:&nbsp;</strong>&nbsp;150A(3S)</td><td>Cycle Life (100%, 80%, 50% DOD)</td></tr></tbody></table><p><strong>Prod lead time : </strong> 3 - 4 weeks (urgent case 2 weeks)</p></a></div>
-				<div class="img"><a href="productshow_2158.html"><img class="flash" src="{{ asset('frontend/assets/images/solar_panel_2-removebg-preview.png') }}"></a></div>
-			</div>
-						<div class="swiper-slide swiper-slide-duplicate-next" data-swiper-slide-index="1" style="width: 719.5px; margin-right: 80px;">
-				<div class="text-h"><a href="productshow_2155.html"><h3>UP5000-HM8042   </h3><table><tbody><tr class="firstRow"><td valign="top" style="word-break: break-all;"><strong>Model # :&nbsp;</strong>UP5000-HM8042&nbsp;</td><td valign="top" style="word-break: break-all;"><strong>A&amp;S P/N :&nbsp;</strong>AS-INV005-0220-110</td></tr><tr><td valign="top" style="word-break: break-all;"><strong>Size :</strong> 		 (:mm / inch) 642.5*381.6*149mm<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 47.24*31.49*80.7 in</p></td><td valign="top" style="word-break: break-all;"><strong>Weight :</strong> 19KG/41.88lb</td></tr><tr><td valign="top" style="word-break: break-all;"><strong>Rated voltage :&nbsp;</strong>220V-230V</td><td valign="top" style="word-break: break-all;"><strong>Rated current :&nbsp;</strong>60A</td></tr><tr><td style="word-break: break-all;"><strong>Rated frequency :&nbsp;</strong>50/60Hz</td><td>Cycle Life (100%, 80%, 50% DOD)</td></tr></tbody></table><p><strong>Prod lead time : </strong> 3 - 4 weeks (urgent case 2 weeks)</p></a></div>
-				<div class="img"><a href="productshow_2155.html"><img class="flash" src="{{ asset('frontend/assets/images/solar_panel_2-removebg-preview.png') }}"></a></div>
-			</div>
-						<div class="swiper-slide" data-swiper-slide-index="2" style="width: 719.5px; margin-right: 80px;">
-				<div class="text-h"><a href="productshow_2153.html"><h3>450W photovoltaic module</h3><table><tbody><tr class="firstRow"><td valign="top" style="word-break: break-all;"><strong>Types of :&nbsp;</strong>450W solar panel cells</td><td valign="top" style="word-break: break-all;"><strong>A&amp;S P/N :&nbsp;</strong>AS-PV0450-0000-100</td></tr><tr><td valign="top" style="word-break: break-all;"><strong>Size :</strong> 		 (:mm / inch) 1910*1134*35mm<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;75.19*44.64*1.37in</p></td><td valign="top" style="word-break: break-all;"><strong>Weight :&nbsp;</strong>24KG/52.9lb</td></tr><tr><td valign="top" style="word-break: break-all;"><strong>Optimal operating current :&nbsp;</strong>12.78A</td><td valign="top" style="word-break: break-all;"><strong>Module efficiency :&nbsp;</strong>20.78%</td></tr><tr><td style="word-break: break-all;"><strong>Maximum rated fuse current&nbsp;:&nbsp;</strong>25A</td><td>Cycle Life (100%, 80%, 50% DOD)</td></tr></tbody></table><p><strong>Prod lead time : </strong> 3 - 4 weeks (urgent case 2 weeks)</p></a></div>
-				<div class="img"><a href="productshow_2153.html"><img class="flash" src="{{ asset('frontend/assets/images/solar_panel_2-removebg-preview.png') }}"></a></div>
-			</div>
-						<div class="swiper-slide" data-swiper-slide-index="3" style="width: 719.5px; margin-right: 80px;">
-				<div class="text-h"><a href="productshow_2265.html"><h3>48V 100Ah</h3><table><tbody><tr class="firstRow"><td valign="top" style="word-break: break-all;"><strong>Model # :&nbsp;</strong>AS48-100</td><td valign="top" style="word-break: break-all;"><strong>A&amp;S P/N :&nbsp;</strong>AS-DC4800-0100-510</td></tr><tr><td valign="top" style="word-break: break-all;"><p><strong>Size(:mm / inch) :&nbsp;</strong>522x 240x 220mm</p><p><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong>20.55*9.44*8.66in</p></td><td valign="top" style="word-break: break-all;"><strong>Weight :&nbsp;</strong>35.5KG/78.26lb</td></tr><tr><td valign="top" style="word-break: break-all;"><strong>Gross weight :&nbsp;</strong>37.4KG/82.45lb</td><td valign="top" style="word-break: break-all;"><strong>Continuous Discharge Current :</strong>&nbsp;100A</td></tr><tr><td style="word-break: break-all;"><strong>Peak Discharge Current :&nbsp;</strong>150A(3S)</td><td>Cycle Life (100%, 80%, 50% DOD)</td></tr></tbody></table><p><strong>Prod lead time : </strong> 3 - 4 weeks (urgent case 2 weeks)</p></a></div>
-				<div class="img"><a href="productshow_2265.html"><img class="flash" src="{{ asset('frontend/assets/images/solar_panel_2-removebg-preview.png') }}"></a></div>
-			</div>
-						<div class="swiper-slide" data-swiper-slide-index="4" style="width: 719.5px; margin-right: 80px;">
-				<div class="text-h"><a href="productshow_2136.html"><h3>25.6V 120Ah</h3><table><tbody><tr class="firstRow"><td valign="top" style="word-break: break-all;"><strong>Model # :</strong>&nbsp; AS24-120</td><td valign="top" style="word-break: break-all;"><strong>A&amp;S P/N&nbsp;:</strong>&nbsp;&nbsp;AS-DC3072-0120-810</td></tr><tr><td valign="top" style="word-break: break-all;"><strong>Size: 		 (mm / inch)&nbsp;:</strong>&nbsp; 522*269*220mm<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;20.55*10.59*8.66in</p></td><td valign="top" style="word-break: break-all;"><strong>Weight&nbsp;:</strong>&nbsp;&nbsp;23.6KG/52.02lb</td></tr><tr><td valign="top" style="word-break: break-all;"><strong>Gross Weight&nbsp; :</strong>&nbsp;&nbsp;25.8KG/56.87lb</td><td valign="top" style="word-break: break-all;"><strong>Continuous Discharge Current&nbsp;:</strong>&nbsp;&nbsp;100A</td></tr><tr><td style="word-break: break-all;"><strong>Peak Discharge Current&nbsp;:</strong>&nbsp;&nbsp;200A(3S)</td><td>Cycle Life (100%, 80%, 50% DOD)</td></tr></tbody></table><p><strong>Prod lead time : </strong> 3 - 4 weeks (urgent case 2 weeks)</p></a></div>
-				<div class="img"><a href="productshow_2136.html"><img class="flash" src="{{ asset('frontend/assets/images/solar_panel_2-removebg-preview.png') }}"></a></div>
-			</div>
-						<div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="5" style="width: 719.5px; margin-right: 80px;">
-				<div class="text-h"><a href="productshow_2267.html"><h3>51.2V 400Ah</h3><table><tbody><tr class="firstRow"><td valign="top" style="word-break: break-all;"><strong>Model #&nbsp;:&nbsp;</strong>&nbsp;ADD2048K</td><td valign="top" style="word-break: break-all;"><strong>A&amp;S P/N&nbsp;:&nbsp;&nbsp;</strong>AS-DD2048-0400-610</td></tr><tr><td valign="top" style="word-break: break-all;"><p><strong>Size&nbsp;:&nbsp;</strong>(:mm / inch)&nbsp;585*550840mm</p><p><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong>23.03*21.65*33.071n</p></td><td valign="top" style="word-break: break-all;"><strong>Weight&nbsp;:&nbsp;&nbsp; </strong>200KG/264.55Ib</td></tr><tr><td valign="top" style="word-break: break-all;"><strong>Gross weight :&nbsp;</strong>&nbsp;230KS/507lb</td><td valign="top" style="word-break: break-all;"><strong>Continuous Discharge Current : </strong>100A</td></tr><tr><td style="word-break: break-all;"><strong>Peak Discharge Current&nbsp;:&nbsp;</strong>&nbsp;400A</td><td>Cycle Life (100%, 80%, 50% DOD)</td></tr></tbody></table><p><strong>Prod lead time : </strong> 3 - 4 weeks (urgent case 2 weeks)</p></a></div>
-				<div class="img"><a href="productshow_2267.html"><img class="flash" src="upload_files/2023-11/202311010353165762.png"></a></div>
-			</div>
-					<div class="swiper-slide swiper-slide-duplicate swiper-slide-active" data-swiper-slide-index="0" style="width: 719.5px; margin-right: 80px;">
-				<div class="text-h"><a href="productshow_2158.html"><h3>51.2V 100Ah</h3><table><tbody><tr class="firstRow"><td valign="top" style="word-break: break-all;"><strong>Model #&nbsp;:&nbsp;</strong>&nbsp;APW5120C</td><td valign="top" style="word-break: break-all;"><strong>A&amp;S P/N&nbsp;:&nbsp;&nbsp;</strong>AS-PW5120-0100-610</td></tr><tr><td valign="top" style="word-break: break-all;"><p><strong>Size&nbsp;:&nbsp;&nbsp; </strong>		 (:mm / inch)&nbsp;600*420*210mm</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 23.62*16.53*8.26 in</p></td><td valign="top" style="word-break: break-all;"><strong>Weight&nbsp;:&nbsp;&nbsp; </strong>55.5KG/122.3lb</td></tr><tr><td style="word-break: break-all;"><strong>Peak Discharge Current&nbsp;:&nbsp;</strong>&nbsp;150A(3S)</td><td>Cycle Life (100%, 80%, 50% DOD)</td></tr></tbody></table><p><strong>Prod lead time : </strong> 3 - 4 weeks (urgent case 2 weeks)</p></a></div>
-				<div class="img"><a href="productshow_2158.html"><img class="flash" src="{{ asset('frontend/assets/images/solar_panel_2-removebg-preview.png') }}"></a></div>
-			</div><div class="swiper-slide swiper-slide-duplicate swiper-slide-next" data-swiper-slide-index="1" style="width: 719.5px; margin-right: 80px;">
-				<div class="text-h"><a href="productshow_2155.html"><h3>UP5000-HM8042   </h3><table><tbody><tr class="firstRow"><td valign="top" style="word-break: break-all;"><strong>Model # :&nbsp;</strong>UP5000-HM8042&nbsp;</td><td valign="top" style="word-break: break-all;"><strong>A&amp;S P/N :&nbsp;</strong>AS-INV005-0220-110</td></tr><tr><td valign="top" style="word-break: break-all;"><strong>Size :</strong> 		 (:mm / inch) 642.5*381.6*149mm<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 47.24*31.49*80.7 in</p></td><td valign="top" style="word-break: break-all;"><strong>Weight :</strong> 19KG/41.88lb</td></tr><tr><td valign="top" style="word-break: break-all;"><strong>Rated voltage :&nbsp;</strong>220V-230V</td><td valign="top" style="word-break: break-all;"><strong>Rated current :&nbsp;</strong>60A</td></tr><tr><td style="word-break: break-all;"><strong>Rated frequency :&nbsp;</strong>50/60Hz</td><td>Cycle Life (100%, 80%, 50% DOD)</td></tr></tbody></table><p><strong>Prod lead time : </strong> 3 - 4 weeks (urgent case 2 weeks)</p></a></div>
-				<div class="img"><a href="productshow_2155.html"><img class="flash" src="{{ asset('frontend/assets/images/solar_panel_2-removebg-preview.png') }}"></a></div>
-			</div></div>
-		<div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 6"></span></div>
-	<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
-	<div class="case_pall"><a href="product.html">ALL PRODUCTS</a></div>
-  </div>
-    </section>
+        </section>
 
  
  
