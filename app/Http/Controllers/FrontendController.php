@@ -80,6 +80,26 @@ class FrontendController extends Controller
         return view('detail');
     }
 
+    public function detailCustom2()
+    {
+        return view('detail2');
+    }
+    public function detailCustom3()
+    {
+        return view('detail3');
+    }
+    public function detailCustom4()
+    {
+        return view('detail4');
+    }
+    public function detailCustom5()
+    {
+        return view('detail5');
+    }
+    public function detailCustom6()
+    {
+        return view('detail6');
+    }
 
     public function batteryDetail128100()
     {

@@ -371,7 +371,7 @@
         <section >
         <div class="main_01 web_w" style="padding-top: 190px;">
             <div class="banner_page imgbj4" style="width:100%; position:relative;">
-                <img src="{{ asset('frontend/assets/images/banner.jpg') }}">
+                <!-- <img src="{{ asset('frontend/assets/images/banner3.jpg') }}"> -->
                 <div class="toptext wow fadeInLeft animated animated" style="visibility: visible; animation-name: fadeInLeft;"></div>
             </div>
         </div>
@@ -380,32 +380,29 @@
         <section>
             <div class="main_01 web_w">
                 <div class="case_top">
-                <h1>Residential &amp; Consumer</h1>
+                <h1>Minigrid, Rural electrification</h1>
                 <div class="case_toptext">
                             </div>
             </div>
             <div class="casebox">
                     <ul class="tz-gallery">
                         <li>
-                            <div><img src="{{ asset('frontend/assets/images/residential1.jpg') }}" width="300px" height="300px"></div>
-                            <h6>Electric vehicle charging</h6><p>Residential &amp; Consumer</p>
+                            <div><img src="{{ asset('frontend/assets/images/mre1.jpg') }}" width="300px" height="300px"></div>
+                            <h6>All in one Solar Station</h6><p>Minigrid, Rural electrification &amp; </p>
                         </li>
                         <li>
-                            <div><img src="{{ asset('frontend/assets/images/residential2.jpg') }}"width="300px" height="300px"></div>
-                            <h6>Marines, boats</h6><p>Residential &amp; Consumer</p>
+                            <div><img src="{{ asset('frontend/assets/images/mre2.jpg') }}"width="300px" height="300px"></div>
+                            <h6>Clinic, Small Hospital</h6><p>Minigrid, Rural electrification &amp; </p>
                         </li>
                         <li>
-                            <div><img src="{{ asset('frontend/assets/images/residential3.jpg') }}"width="300px" height="300px"></div>
-                            <h6>Homes</h6><p>Residential &amp; Consumer</p>
+                            <div><img src="{{ asset('frontend/assets/images/mre3.jpeg') }}"width="300px" height="300px"></div>
+                            <h6>School</h6><p>Minigrid, Rural electrification &amp; </p>
                         </li>
                         <li>
-                            <div><img src="{{ asset('frontend/assets/images/residential4.jpg') }}"width="300px" height="300px"></div>
-                            <h6>SmartPole</h6><p>Residential &amp; Consumer</p>
+                            <div><img src="{{ asset('frontend/assets/images/banner3.jpg') }}"width="300px" height="300px"></div>
+                            <h6>Agriculture and Farming</h6><p>Minigrid, Rural electrification &amp; </p>
                         </li>
-                        <li>
-                            <div><img src="{{ asset('frontend/assets/images/residential5.jpg') }}"width="300px" height="300px"></div>
-                            <h6>SmartPole</h6><p>Residential &amp; Consumer</p>
-                        </li>
+
 
                     
                             <!-- <li>

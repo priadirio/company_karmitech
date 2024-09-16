@@ -371,7 +371,7 @@
         <section >
         <div class="main_01 web_w" style="padding-top: 190px;">
             <div class="banner_page imgbj4" style="width:100%; position:relative;">
-                <img src="{{ asset('frontend/assets/images/banner.jpg') }}">
+                <!-- <img src="{{ asset('frontend/assets/images/banner3.jpg') }}"> -->
                 <div class="toptext wow fadeInLeft animated animated" style="visibility: visible; animation-name: fadeInLeft;"></div>
             </div>
         </div>
@@ -380,36 +380,37 @@
         <section>
             <div class="main_01 web_w">
                 <div class="case_top">
-                <h1>Residential &amp; Consumer</h1>
+                <h1>Starter Battery</h1>
                 <div class="case_toptext">
                             </div>
             </div>
             <div class="casebox">
                     <ul class="tz-gallery">
                         <li>
-                            <div><img src="{{ asset('frontend/assets/images/residential1.jpg') }}" width="300px" height="300px"></div>
-                            <h6>Electric vehicle charging</h6><p>Residential &amp; Consumer</p>
+                            <div><img src="{{ asset('frontend/assets/images/sb1.png') }}" width="300px" height="300px"></div>
+                            <h6>ATV, UTV starter battery</h6><p>Starter Battery &amp; </p>
                         </li>
                         <li>
-                            <div><img src="{{ asset('frontend/assets/images/residential2.jpg') }}"width="300px" height="300px"></div>
-                            <h6>Marines, boats</h6><p>Residential &amp; Consumer</p>
+                            <div><img src="{{ asset('frontend/assets/images/sb2.png') }}"width="300px" height="300px"></div>
+                            <h6>Car starter battery</h6><p>Starter Battery &amp; </p>
                         </li>
                         <li>
-                            <div><img src="{{ asset('frontend/assets/images/residential3.jpg') }}"width="300px" height="300px"></div>
-                            <h6>Homes</h6><p>Residential &amp; Consumer</p>
+                            <div><img src="{{ asset('frontend/assets/images/sb3.jpg') }}"width="300px" height="300px"></div>
+                            <h6>Motocycle starter battery</h6><p>Starter Battery &amp; </p>
                         </li>
                         <li>
-                            <div><img src="{{ asset('frontend/assets/images/residential4.jpg') }}"width="300px" height="300px"></div>
-                            <h6>SmartPole</h6><p>Residential &amp; Consumer</p>
+                            <div><img src="{{ asset('frontend/assets/images/banner5.png') }}"width="300px" height="300px"></div>
+                            <h6>Snowmobile Starter Battery</h6><p>Starter Battery &amp; </p>
                         </li>
                         <li>
-                            <div><img src="{{ asset('frontend/assets/images/residential5.jpg') }}"width="300px" height="300px"></div>
-                            <h6>SmartPole</h6><p>Residential &amp; Consumer</p>
+                            <div><img src="{{ asset('frontend/assets/images/sb4.png') }}"width="300px" height="300px"></div>
+                            <h6>Truck starter battery</h6><p>Starter Battery &amp; </p>
                         </li>
+
 
                     
                             <!-- <li>
-                            <div><img src="upload_files/2023-09/202309251150437791.jpg"></div>
+                            <div><img src="upload_files/2023-09/202309251150437791.png"></div>
                             <h6>Cottages, Cabins</h6><p>Residential &amp; Consumer</p>
                         </li>
                             <li>

@@ -179,7 +179,7 @@
                                     </div>
                                     </li>
                                     <li class="nav-item ml-5 lg:ml-11">
-                                        <a class="page-scroll" href="#contact">Contact Us</a>
+                                        <a class="page-scroll" href="/contact-us">Contact Us</a>
                                     </li>
                                 </ul>
                             </div> <!-- navbar collapse -->

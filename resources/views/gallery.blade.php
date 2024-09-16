@@ -132,7 +132,7 @@
 
                                     </li>
                                     <li class="nav-item ml-5 lg:ml-11">
-                                        <a class="page-scroll" href="#contact">CONTACT US</a>
+                                        <a class="page-scroll" href="/contact-us">CONTACT US</a>
                                     </li>
                                 </ul>
                             </div> <!-- navbar collapse -->

@@ -40,30 +40,27 @@ const productDataApplication = [
     {
       imgSrc: "frontend/assets/images/rs2.png",
       title: "Residential & Consumer",
+      href : '/detail'
     },
     {
       imgSrc: "frontend/assets/images/rs4.png",
       title: "Commercial",
+      href : '/detail2'
     },
     {
       imgSrc: "frontend/assets/images/rs5.png",
       title: "Transit Battery",
+      href : '/detail3'
     },
     {
       imgSrc: "frontend/assets/images/rs6.png",
       title: "Minigrid, Rural Electrification",
+      href : '/detail4'
     },
     {
       imgSrc: "frontend/assets/images/rs7.png",
       title: "Starter Battery",
-    },
-    {
-      imgSrc: "frontend/assets/images/rs8.png",
-      title: "3C Products",
-    },
-    {
-      imgSrc: "frontend/assets/images/rs9.png",
-      title: "Custom Batteries",
+      href : '/detail5'
     },
   ];
   
