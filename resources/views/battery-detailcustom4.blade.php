@@ -297,33 +297,32 @@ strong{
                 <!-- Description -->
                
                 <div>
-                <h1 style = "font-size : 32px;font-weight: 700" >UP5000-HM8042</h1>
+                <h1 style = "font-size : 32px;font-weight: 700" >51147115Ah lithium iron phosphate battery cell</h1>
                 <br/>
                     <table>
                         <tbody>
                             
                             <tr class="firstRow">
-                                <td valign="top" style="word-break: break-all;"><strong>Model #&nbsp;:&nbsp;</strong>&nbsp; P5000-HM8042 </td>
-                                <td valign="top" style="word-break: break-all;"><strong>P/N&nbsp;:&nbsp;</strong>INV005-0220-110</td>
+                                <td valign="top" style="word-break: break-all;"><strong>Model #&nbsp;:&nbsp;</strong>&nbsp; 51147115 </td>
+                                <td valign="top" style="word-break: break-all;"><strong>P/N&nbsp;:&nbsp;</strong>51E7B5-0100-101</td>
                             </tr>
                             <tr>
                                 <td valign="top" style="word-break: break-all;">
-                                <strong>Size&nbsp;:&nbsp;&nbsp;</strong>		 (:mm / inch)642.5*381.6*149mm
-                                <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;47.24*31.49*80.7 in</p>
+                                <strong>Size&nbsp;:&nbsp;&nbsp;</strong>		 (:mm / inch)300*350*140mm
+                                <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;11.81*13.77*5.51in</p>
                                 </td>
-                                <td valign="top" style="word-break: break-all;"><strong>Weight&nbsp;:&nbsp;&nbsp;</strong>19KG/41.88lb</td>
+                                <td valign="top" style="word-break: break-all;"><strong>Weight&nbsp;:&nbsp;&nbsp;</strong>19.3KG/42.54lb</td>
                             </tr>
                             <tr>
-                                <td valign="top" style="word-break: break-all;"><strong>Rated voltage&nbsp;:</strong>&nbsp;&nbsp;220V-230V</td>
+                                <td valign="top" style="word-break: break-all;"><strong>Gross weight&nbsp;:</strong>&nbsp;&nbsp; 21KG/46.29lb</td>
+                           
+                           
+                                <td valign="top" style="word-break: break-all;"><strong>Standard discharge current  &nbsp;:</strong>&nbsp;&nbsp; 50A</td>
                             </tr>
+
+
                             <tr>
-                                <td valign="top" style="word-break: break-all;"><strong>Rated current&nbsp;:</strong>&nbsp;&nbsp;60A</td>
-                            </tr>
-                            <tr>
-                                <td valign="top" style="word-break: break-all;"><strong>Rated frequency &nbsp;:</strong>&nbsp;&nbsp;50/60Hz</td>
-                            </tr>
-                            <tr>
-                                <td style="word-break: break-all;"><strong>Peak Discharge Current&nbsp;:&nbsp;</strong>&nbsp;150A(3S)</td>
+                                <td style="word-break: break-all;"><strong>Maximum discharge current&nbsp;:&nbsp;</strong>&nbsp; 100A</td>
                                 <td>Cycle Life (100%, 80%, 50% DOD)</td>
                             </tr>
                         </tbody>

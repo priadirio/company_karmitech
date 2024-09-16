@@ -71,26 +71,32 @@ const solarPanelData = [
     {
       imgSrc: "frontend/assets/images/logo_solar.png",
       title: "APM7-SH108",
+      href : '/solar-detail1'
     },
     {
       imgSrc: "frontend/assets/images/logo_solar.png",
       title: "APM7-SH120 ",
+      href : '/solar-detail2'
     },
     {
       imgSrc: "frontend/assets/images/logo_solar.png",
       title: "APM7-SH144",
+      href : '/solar-detail3'
     },
     {
       imgSrc: "frontend/assets/images/logo_solar.png",
       title: "APM7-SHLDD144",
+      href : '/solar-detail4'
     },
     {
       imgSrc: "frontend/assets/images/logo_solar.png",
       title: "APM7-UHLDD144",
+      href : '/solar-detail5'
     },
     {
       imgSrc: "frontend/assets/images/logo_solar.png",
       title: "APM8-TPLDD132 Series",
+      href : '/solar-detail6'
     },
 
   ];    
@@ -98,31 +104,38 @@ const solarPanelData = [
 const smartpoleProductData = [
     {
       imgSrc: "frontend/assets/images/logo_smartpole.png",
-      title: "12.8V LiFePO4",
+      title: "Smart Pole 1",
+      href : '/panel-detail1'
     },
     {
       imgSrc: "frontend/assets/images/logo_smartpole.png",
-      title: "25.6V LiFePO4",
+      title: "Smart Pole 2",
+      href : '/panel-detail2'
     },
     {
       imgSrc: "frontend/assets/images/logo_smartpole.png",
-      title: "48V LiFePO4",
+      title: "Smart Pole 3",
+      href : '/panel-detail3'
     },
     {
       imgSrc: "frontend/assets/images/logo_smartpole.png",
-      title: "51.2V LiFePO4",
+      title: "Smart Pole 4",
+      href : '/panel-detail4'
     },
     {
       imgSrc: "frontend/assets/images/logo_smartpole.png",
-      title: "ESS",
+      title: "Smart Pole 5",
+      href : '/panel-detail5'
     },
     {
       imgSrc: "frontend/assets/images/logo_smartpole.png",
-      title: "ESS Accessories",
+      title: "Smart Pole 6",
+      href : '/panel-detail6'
     },
     {
       imgSrc: "frontend/assets/images/logo_smartpole.png",
-      title: "Custom Batteries",
+      title: "Smart Pole 7",
+      href : '/panel-detail7'
     },
   ];
 

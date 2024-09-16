@@ -297,72 +297,9 @@ strong{
                 <!-- Description -->
                
                 <div>
-                <h1 style = "font-size : 32px;font-weight: 700" >751437-350mAh 3.7V 350mAh rechargeable polymer lithium-ion battery</h1>
+                <h1 style = "font-size : 32px;font-weight: 700" >Smart Pole  5</h1>
                 <br/>
-                    <table>
-                        <tbody>
-                            
-                            <tr class="firstRow">
-                                <td valign="top" style="word-break: break-all;"><strong>Model #&nbsp;:&nbsp;</strong>&nbsp; 751437 </td>
-                                <td valign="top" style="word-break: break-all;"><strong>P/N&nbsp;:&nbsp;</strong>751437-0350-115</td>
-                            </tr>
-                            <tr>
-                                <td valign="top" style="word-break: break-all;">
-                                <strong>Size&nbsp;:&nbsp;&nbsp;</strong>		 (:mm / inch)7.5*13.5*39.5mm
-                                <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
-                                </td>
-                                <td valign="top" style="word-break: break-all;"><strong>Weight&nbsp;:&nbsp;&nbsp;</strong>7.8g</td>
-                            </tr>
-                            <tr>
-                                <td valign="top" style="word-break: break-all;"><strong>Gross weight&nbsp;:</strong>&nbsp;&nbsp;</td>
-                            
-                            
-                                <td valign="top" style="word-break: break-all;"><strong>Continuous Discharge Current&nbsp;:</strong>&nbsp;&nbsp;</td>
-                            </tr>
-                            <tr>
-                                <td valign="top" style="word-break: break-all;"><strong>Rated frequency &nbsp;:</strong>&nbsp;&nbsp;50/60Hz</td>
-                            </tr>
-                            <tr>
-                                <td style="word-break: break-all;"><strong>Peak Discharge Current&nbsp;:&nbsp;</strong>&nbsp;</td>
-                                <td>Cycle Life (100%, 80%, 50% DOD)</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <p><strong>Prod lead time : </strong> 3 - 4 weeks (urgent case 2 weeks)<br></p>
-                    <p><strong>Sea shipment lead time:</strong></p>
-                    <table>
-                        <tbody>
-                            <tr class="firstRow">
-                                <td valign="top">North America :</td>
-                                <td valign="top">3 - 4 weeks</td>
-                                <td valign="top">by Sea</td>
-                            </tr>
-                            <tr>
-                                <td valign="top">EU:</td>
-                                <td valign="top">3- 4 weeks</td>
-                                <td valign="top">by Sea</td>
-                            </tr>
-                            <tr>
-                                <td valign="top">Southern Eastern Asia :</td>
-                                <td valign="top">7- 10 days</td>
-                                <td valign="top">by Sea</td>
-                            </tr>
-                            <tr>
-                                <td valign="top">India/Pakistan:</td>
-                                <td valign="top">12-15 days</td>
-                                <td valign="top">by Sea</td>
-                            </tr>
-                            <tr>
-                                <td valign="top">South America	:</td>
-                                <td valign="top">4-5 weeks</td>
-                                <td valign="top">by Sea</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <p><strong>Cert:</strong>&nbsp; &nbsp;<br></p>
-                    <p>&nbsp; &nbsp; &nbsp; (1)Cell		: 	UL, CE, ROHS, REACH, EMC, BIS, UN38.3, IEC 63133, IEC 61960</p>
-                    <p>&nbsp; &nbsp; &nbsp; (2)Pack		:	UL, CE, ROHS, REACH, EMC, BIS, UN 38.3</p>
-                    <p><br></p>
+                    
                     </div>
             </div>
         </div>
@@ -428,7 +365,7 @@ strong{
 
     <!--====== Main js ======-->
     <script src="{{ asset('frontend/assets/js/wow.min.js') }}"></script>
-    <script src="{{ asset('frontend/assets/js/product-detailcustom1.js') }}"></script>
+    <script src="{{ asset('frontend/assets/js/product-detailpanel5.js') }}"></script>
     <script src="{{ asset('frontend/assets/js/navbar.js') }}"></script>
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://cdn.jsdelivr.net/npm/pagedone@1.2.1/src/js/pagedone.js"></script>

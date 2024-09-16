@@ -211,6 +211,71 @@ class FrontendController extends Controller
         return view('battery-detailcustom6');
     }
 
+    public function solarDetail1()
+    {
+        return view('solar-detail1');
+    }
+
+    public function solarDetail2()
+    {
+        return view('solar-detail2');
+    }
+
+    public function solarDetail3()
+    {
+        return view('solar-detail3');
+    }
+
+    public function solarDetail4()
+    {
+        return view('solar-detail4');
+    }
+
+    public function solarDetail5()
+    {
+        return view('solar-detail5');
+    }
+
+    public function solarDetail6()
+    {
+        return view('solar-detail6');
+    }
+
+    
+    public function panelDetail1()
+    {
+        return view('panel-detail1');
+    }
+
+    public function panelDetail2()
+    {
+        return view('panel-detail2');
+    }
+
+    public function panelDetail3()
+    {
+        return view('panel-detail3');
+    }
+
+    public function panelDetail4()
+    {
+        return view('panel-detail4');
+    }
+
+    public function panelDetail5()
+    {
+        return view('panel-detail5');
+    }
+
+    public function panelDetail6()
+    {
+        return view('panel-detail6');
+    }
+    public function panelDetail7()
+    {
+        return view('panel-detail7');
+    }
+    
     public function solar()
     {
         return view('solar');

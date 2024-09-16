@@ -297,34 +297,22 @@ strong{
                 <!-- Description -->
                
                 <div>
-                <h1 style = "font-size : 32px;font-weight: 700" >751437-350mAh 3.7V 350mAh rechargeable polymer lithium-ion battery</h1>
+                <h1 style = "font-size : 32px;font-weight: 700" >APM7-UHLDD144 (555-580W)</h1>
                 <br/>
                     <table>
                         <tbody>
                             
                             <tr class="firstRow">
-                                <td valign="top" style="word-break: break-all;"><strong>Model #&nbsp;:&nbsp;</strong>&nbsp; 751437 </td>
-                                <td valign="top" style="word-break: break-all;"><strong>P/N&nbsp;:&nbsp;</strong>751437-0350-115</td>
+                                <td valign="top" style="word-break: break-all;"><strong>Model #&nbsp;:&nbsp;</strong>&nbsp; APM7-UHLDD144 Series</td>
                             </tr>
                             <tr>
                                 <td valign="top" style="word-break: break-all;">
-                                <strong>Size&nbsp;:&nbsp;&nbsp;</strong>		 (:mm / inch)7.5*13.5*39.5mm
-                                <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+                                <strong>Power Range&nbsp;:&nbsp;&nbsp;</strong>		 555-580W
                                 </td>
-                                <td valign="top" style="word-break: break-all;"><strong>Weight&nbsp;:&nbsp;&nbsp;</strong>7.8g</td>
+                                <td valign="top" style="word-break: break-all;"><strong>Maximum Efficiency&nbsp;:&nbsp;&nbsp;</strong>22.44%</td>
                             </tr>
                             <tr>
-                                <td valign="top" style="word-break: break-all;"><strong>Gross weight&nbsp;:</strong>&nbsp;&nbsp;</td>
-                            
-                            
-                                <td valign="top" style="word-break: break-all;"><strong>Continuous Discharge Current&nbsp;:</strong>&nbsp;&nbsp;</td>
-                            </tr>
-                            <tr>
-                                <td valign="top" style="word-break: break-all;"><strong>Rated frequency &nbsp;:</strong>&nbsp;&nbsp;50/60Hz</td>
-                            </tr>
-                            <tr>
-                                <td style="word-break: break-all;"><strong>Peak Discharge Current&nbsp;:&nbsp;</strong>&nbsp;</td>
-                                <td>Cycle Life (100%, 80%, 50% DOD)</td>
+                                <td valign="top" style="word-break: break-all;"><strong>Yearly Degradation&nbsp;:</strong>&nbsp;&nbsp;0.40%</td>
                             </tr>
                         </tbody>
                     </table>
@@ -360,8 +348,10 @@ strong{
                         </tbody>
                     </table>
                     <p><strong>Cert:</strong>&nbsp; &nbsp;<br></p>
-                    <p>&nbsp; &nbsp; &nbsp; (1)Cell		: 	UL, CE, ROHS, REACH, EMC, BIS, UN38.3, IEC 63133, IEC 61960</p>
-                    <p>&nbsp; &nbsp; &nbsp; (2)Pack		:	UL, CE, ROHS, REACH, EMC, BIS, UN 38.3</p>
+                    <p>&nbsp; &nbsp; &nbsp; IEC 61215/IEC 61730</p>
+                    <p>&nbsp; &nbsp; &nbsp; ISO 14001: Emvironmental Management System</p>
+                    <p>&nbsp; &nbsp; &nbsp; ISO 9001: Quality Management System</p>
+                    <p>&nbsp; &nbsp; &nbsp; ISO45001: Occupational Health and Safety Management System</p>
                     <p><br></p>
                     </div>
             </div>
@@ -428,7 +418,7 @@ strong{
 
     <!--====== Main js ======-->
     <script src="{{ asset('frontend/assets/js/wow.min.js') }}"></script>
-    <script src="{{ asset('frontend/assets/js/product-detailcustom1.js') }}"></script>
+    <script src="{{ asset('frontend/assets/js/product-detailsolar5.js') }}"></script>
     <script src="{{ asset('frontend/assets/js/navbar.js') }}"></script>
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://cdn.jsdelivr.net/npm/pagedone@1.2.1/src/js/pagedone.js"></script>

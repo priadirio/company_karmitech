@@ -80,7 +80,31 @@ Route::get('/battery-detailcustom4', [FrontendController::class, 'batteryDetailc
 Route::get('/battery-detailcustom5', [FrontendController::class, 'batteryDetailcustom5'])->name('battery-detailcustom5');
 Route::get('/battery-detailcustom6', [FrontendController::class, 'batteryDetailcustom6'])->name('battery-detailcustom6');
 
+
+Route::get('/solar-detail1', [FrontendController::class, 'solarDetail1'])->name('solar-detail1');
+Route::get('/solar-detail2', [FrontendController::class, 'solarDetail2'])->name('solar-detail2');
+Route::get('/solar-detail3', [FrontendController::class, 'solarDetail3'])->name('solar-detail3');
+Route::get('/solar-detail4', [FrontendController::class, 'solarDetail4'])->name('solar-detail4');
+Route::get('/solar-detail5', [FrontendController::class, 'solarDetail5'])->name('solar-detail5');
+Route::get('/solar-detail6', [FrontendController::class, 'solarDetail6'])->name('solar-detail6');
+
+
+Route::get('/panel-detail1', [FrontendController::class, 'panelDetail1'])->name('panel-detail1');
+Route::get('/panel-detail2', [FrontendController::class, 'panelDetail2'])->name('panel-detail2');
+Route::get('/panel-detail3', [FrontendController::class, 'panelDetail3'])->name('panel-detail3');
+Route::get('/panel-detail4', [FrontendController::class, 'panelDetail4'])->name('panel-detail4');
+Route::get('/panel-detail5', [FrontendController::class, 'panelDetail5'])->name('panel-detail5');
+Route::get('/panel-detail6', [FrontendController::class, 'panelDetail6'])->name('panel-detail6');
+Route::get('/panel-detail7', [FrontendController::class, 'panelDetail7'])->name('panel-detail7');
+
+
+
 Route::get('/solar', [FrontendController::class, 'solar'])->name('solar');
 Route::get('/product/{product:slug}', [ProductController::class, 'show']);
 Route::get('/gallery1', [FrontendController::class, 'gallery'])->name('gallery');
 Route::get('/detail', [FrontendController::class, 'detailCustom'])->name('detail');
+Route::get('/detail2', [FrontendController::class, 'detailCustom2'])->name('detail2');
+Route::get('/detail3', [FrontendController::class, 'detailCustom3'])->name('detail3');
+Route::get('/detail4', [FrontendController::class, 'detailCustom4'])->name('detail4');
+Route::get('/detail5', [FrontendController::class, 'detailCustom5'])->name('detail5');
+Route::get('/detail6', [FrontendController::class, 'detailCustom6'])->name('detail6');

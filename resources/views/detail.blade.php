@@ -386,28 +386,25 @@
                     <ul class="tz-gallery">
                         <li>
                             <div><img src="{{ asset('frontend/assets/images/residential1.jpg') }}" width="300px" height="300px"></div>
-                            <h6>Tiny Houses, beach houses</h6><p>Residential &amp; Consumer</p>
+                            <h6>Electric vehicle charging</h6><p>Residential &amp; Consumer</p>
                         </li>
                         <li>
                             <div><img src="{{ asset('frontend/assets/images/residential2.jpg') }}"width="300px" height="300px"></div>
-                            <h6>Tiny Houses, beach houses</h6><p>Residential &amp; Consumer</p>
+                            <h6>Marines, boats</h6><p>Residential &amp; Consumer</p>
                         </li>
                         <li>
                             <div><img src="{{ asset('frontend/assets/images/residential3.jpg') }}"width="300px" height="300px"></div>
-                            <h6>Tiny Houses, beach houses</h6><p>Residential &amp; Consumer</p>
+                            <h6>Homes</h6><p>Residential &amp; Consumer</p>
                         </li>
                         <li>
                             <div><img src="{{ asset('frontend/assets/images/residential4.jpg') }}"width="300px" height="300px"></div>
-                            <h6>Tiny Houses, beach houses</h6><p>Residential &amp; Consumer</p>
+                            <h6>SmartPole</h6><p>Residential &amp; Consumer</p>
                         </li>
                         <li>
                             <div><img src="{{ asset('frontend/assets/images/residential5.jpg') }}"width="300px" height="300px"></div>
-                            <h6>Tiny Houses, beach houses</h6><p>Residential &amp; Consumer</p>
+                            <h6>SmartPole</h6><p>Residential &amp; Consumer</p>
                         </li>
-                        <li>
-                            <div><img src="{{ asset('frontend/assets/images/residential5.jpg') }}"width="300px" height="300px"></div>
-                            <h6>Tiny Houses, beach houses</h6><p>Residential &amp; Consumer</p>
-                        </li>
+
                     
                             <!-- <li>
                             <div><img src="upload_files/2023-09/202309251150437791.jpg"></div>

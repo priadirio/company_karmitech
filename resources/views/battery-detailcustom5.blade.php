@@ -297,34 +297,26 @@ strong{
                 <!-- Description -->
                
                 <div>
-                <h1 style = "font-size : 32px;font-weight: 700" >UP5000-HM8042</h1>
+                <h1 style = "font-size : 32px;font-weight: 700" >Portable Power Station 300W</h1>
                 <br/>
                     <table>
                         <tbody>
                             
                             <tr class="firstRow">
-                                <td valign="top" style="word-break: break-all;"><strong>Model #&nbsp;:&nbsp;</strong>&nbsp; P5000-HM8042 </td>
-                                <td valign="top" style="word-break: break-all;"><strong>P/N&nbsp;:&nbsp;</strong>INV005-0220-110</td>
+                                <td valign="top" style="word-break: break-all;"><strong>Model #&nbsp;:&nbsp;</strong>&nbsp; OPS300W</td>
                             </tr>
                             <tr>
                                 <td valign="top" style="word-break: break-all;">
-                                <strong>Size&nbsp;:&nbsp;&nbsp;</strong>		 (:mm / inch)642.5*381.6*149mm
-                                <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;47.24*31.49*80.7 in</p>
+                                <strong>Output Interface&nbsp;:&nbsp;&nbsp;</strong>Type C
                                 </td>
-                                <td valign="top" style="word-break: break-all;"><strong>Weight&nbsp;:&nbsp;&nbsp;</strong>19KG/41.88lb</td>
+                                
+                            </tr>
+                            <tr><td valign="top" style="word-break: break-all;"><strong>Input Interface&nbsp;:&nbsp;&nbsp;</strong>DC</td></tr>
+                            <tr>
+                                <td valign="top" style="word-break: break-all;"><strong>Socket Standard&nbsp;:</strong>&nbsp;&nbsp;Universal</td>
                             </tr>
                             <tr>
-                                <td valign="top" style="word-break: break-all;"><strong>Rated voltage&nbsp;:</strong>&nbsp;&nbsp;220V-230V</td>
-                            </tr>
-                            <tr>
-                                <td valign="top" style="word-break: break-all;"><strong>Rated current&nbsp;:</strong>&nbsp;&nbsp;60A</td>
-                            </tr>
-                            <tr>
-                                <td valign="top" style="word-break: break-all;"><strong>Rated frequency &nbsp;:</strong>&nbsp;&nbsp;50/60Hz</td>
-                            </tr>
-                            <tr>
-                                <td style="word-break: break-all;"><strong>Peak Discharge Current&nbsp;:&nbsp;</strong>&nbsp;150A(3S)</td>
-                                <td>Cycle Life (100%, 80%, 50% DOD)</td>
+                                <td valign="top" style="word-break: break-all;"><strong>Protection&nbsp;:</strong>&nbsp;&nbsp;Over-discharging, Short Circuit, Over-charing, Low Tension</td>
                             </tr>
                         </tbody>
                     </table>
