@@ -280,6 +280,10 @@ class FrontendController extends Controller
     {
         return view('solar');
     }
+    public function contactUs()
+    {
+        return view('contact-us');
+    }
 
 public function gallery()
     {
