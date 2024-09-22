@@ -459,15 +459,17 @@
   <nav>
     <h6 class="footer-title" style="color:#FFFF;">Contact</h6>
     
-    <i class="fa fa-phone " style="color:#FFFFFF;"> <a style="color:#FFFF;" > (021)890992239</a></i>
-    <i class="fa fa-envelope" style="color:#FFFFFF;"> <a style="color:#FFFF;" href="mailto:info@karmitechindonesia.id">info@karmitechindonesia.id</a></i>
+    <i class="fa fa-phone " style="color:#FFFFFF;"> <a style="color:#FFFF;" >Phone: (021) 890992239</a></i>
+    <i class="fa fa-phone " style="color:#FFFFFF;"> <a style="color:#FFFF;" > Whatsapp: +6281399029496</a></i>
+    <i class="fa fa-envelope" style="color:#FFFFFF;"> <a style="color:#FFFF;" href="mailto:info@karmitechindonesia.id">Email: info@karmitechindonesia.id</a></i>
   </nav>
   <nav>
   <h6 class="footer-title" style="color:#FFFF;">Head Office</h6>
   <a class="fa fa-map-marker dark:text-white" style="color:#FFFF;"> PT Karya Mitra Sejati</a>
     <a class="dark:text-white" style="color:#FFFF;">Gedung Bella Vista </a>
     <a class="dark:text-white" style="color:#FFFF;" >Jl. Raya Jati Makmur No.100, Jatimakmur,  </a>
-    <a class="dark:text-white" style="color:#FFFF;" >Kec. Pondok Gede, Kota Bekasi, Jawa Barat 17413</a>
+    <a class="dark:text-white" style="color:#FFFF;" >Kec. Pondok Gede, Kota Bekasi, Jawa Barat</a>
+    <a class="dark:text-white" style="color:#FFFF;" >Kode Pos: 177413</a>
   </nav>
 
 </footer>
