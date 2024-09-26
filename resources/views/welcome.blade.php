@@ -13,6 +13,11 @@
     <!--====== Favicon Icon ======-->
     <link rel="shortcut icon" href="{{ asset('frontend/assets/images/KARMITECH-removebg-preview.png') }}" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
 
     <!--====== Animate CSS ======-->
     <link rel="stylesheet" href="{{ asset('frontend/assets/css/animate.css') }}">
@@ -471,7 +476,14 @@
     <a class="dark:text-white" style="color:#FFFF;" >Kec. Pondok Gede, Kota Bekasi, Jawa Barat</a>
     <a class="dark:text-white" style="color:#FFFF;" >Kode Pos: 177413</a>
   </nav>
-
+  <a
+        href="https://wa.me/2348100000000"
+        class="whatsapp_float"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i class="fa fa-whatsapp whatsapp-icon"></i>
+      </a>
 </footer>
 <footer class="footer footer-center bg-gray-500 text-base-content p-4" style="color:#FFFFFF;">
   <aside>
