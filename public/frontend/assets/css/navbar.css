@@ -8,12 +8,14 @@ imgProduct a {
   margin: 0 auto; /* Center image horizontally */
 }
  /* for desktop */
- .whatsapp_float {
+ /* .whatsapp_float {
   position: fixed;
   width: 60px;
   height: 60px;
   bottom: 40px;
   right: 40px;
+  left: 50%;
+  top: 50%;
   background-color: #25d366;
   color: #FFF;
   border-radius: 50px;
@@ -25,6 +27,22 @@ imgProduct a {
 
 .whatsapp-icon {
   margin-top: 16px;
+} */
+.whatsapp_float {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  background-color: #25d366;
+  border-radius: 50%;
+  padding: 10px; /* Adjust for padding around the icon */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow effect */
+}
+
+.whatsapp-icon {
+  font-size: 40px;
+  color: white;
 }
 
 /* for mobile */
