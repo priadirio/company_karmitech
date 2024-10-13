@@ -25,6 +25,7 @@ imgProduct a {
 
 .whatsapp-icon {
   margin-top: 16px;
+  display: flex;
 }
 
 /* for mobile */

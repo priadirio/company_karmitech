@@ -254,7 +254,7 @@
                     class="mb-4 sm:mb-8 sm:h-[400px] md:h-[540px] lg:h-[400px] xl:h-[500px]"
                   >
                     <img
-                      src="{{ asset('frontend/assets/images/7.jpg') }}"
+                      src="{{ asset('frontend/assets/images/foto1.jpg') }}"
                       alt="about image"
                       class="object-cover object-center w-full h-full"
                     />
@@ -266,7 +266,7 @@
                     class="mb-4 sm:mb-8 sm:h-[220px] md:h-[346px] lg:mb-4 lg:h-[225px] xl:mb-8 xl:h-[310px]"
                   >
                     <img
-                      src="{{ asset('frontend/assets/images/36.jpg') }}"
+                      src="{{ asset('frontend/assets/images/foto2.jpg') }}"
                       alt="about image"
                       class="object-cover object-center w-full h-full"
                     />
@@ -275,11 +275,11 @@
                   <div
                     class="mb-4 sm:mb-8 sm:h-[220px] md:h-[346px] lg:mb-4 lg:h-[225px] xl:mb-8 xl:h-[310px]"
                   >
-                    <img
+                    <!-- <img
                       src="{{ asset('frontend/assets/images/solar_panel_2-removebg-preview.png') }}"
                       alt="about image"
                       class="object-cover object-center w-full h-full"
-                    />
+                    /> -->
                   </div>
                     <div>
                       <span class="absolute top-0 left-0 -z-10">
